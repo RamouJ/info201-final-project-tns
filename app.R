@@ -3,18 +3,50 @@ library("ggplot2")
 library("dplyr")
 library("tidyr")
 
-ui <- fluidPage(
-
-  navbarPage(
+ui <- navbarPage(
       "Caribbean Coral Reef Analysis: White Band Disease",
-      tabsetPanel(type = "tabs",
-                  tabPanel("Introduction", plotOutput("plot")),
-                  tabPanel("Question 1", tableOutput("table")),
-                  tabPanel("Question 2", tableOutput("table")),
-                  tabPanel("Question 3", tableOutput("table")),
-                  tabPanel("Question 4", tableOutput("table"))
-      )
-  )
+                  tabPanel("Introduction", 
+                           
+                           
+                           
+                           
+                           
+                           
+                           ),
+                  tabPanel("Question 1"
+                           
+                           
+                           
+                           
+                           
+                           
+                           ),
+                  tabPanel("Question 2",
+                           
+                           
+                           
+                           
+                           
+                           
+                           ),
+                  tabPanel("Question 3", 
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           ),
+                  tabPanel("Question 4", 
+                           
+                           
+                           
+                           
+                           
+                           
+                           )
 )
 
 
@@ -23,3 +55,4 @@ server <- server <- function(input, output) {
 }
 
 shinyApp(ui = ui, server = server)
+
