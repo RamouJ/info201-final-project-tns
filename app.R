@@ -47,8 +47,6 @@ ui <- navbarPage(
                            
                            
                            )
-)
-
 
 server <- server <- function(input, output) {
   
