@@ -9,26 +9,7 @@ ui <- fluidPage(
   sidebarLayout(
     
     # Sidebar panel for inputs ----
-    sidebarPanel(
-      
-      # Input: Select the random distribution type ----
-      radioButtons("dist", "Distribution type:",
-                   c("Normal" = "norm",
-                     "Uniform" = "unif",
-                     "Log-normal" = "lnorm",
-                     "Exponential" = "exp")),
-      
-      # br() element to introduce extra vertical spacing ----
-      br(),
-      
-      # Input: Slider for the number of observations to generate ----
-      sliderInput("n",
-                  "Number of observations:",
-                  value = 500,
-                  min = 1,
-                  max = 1000)
-      
-    ),
+    sidebarPanel(),
     
     # Main panel for displaying outputs ----
     mainPanel(
