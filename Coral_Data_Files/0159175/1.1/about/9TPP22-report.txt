@@ -1,0 +1,36 @@
+The submitter provided the following profile information:
+Name: David Huddleston
+Organization: Riverside/NOAA
+Phone: 2285491698
+
+Contributors:
+Name: Margaret Miller
+Organization: US DOC; NOAA; NMFS; Southeast Fisheries Science Center; Miami, FL Laboratory (SEFSC - Miami Lab)
+Email: margaret.w.miller@noaa.gov
+Role: collaborator
+
+Name: Margaret Miller
+Organization: US DOC; NOAA; NMFS; Southeast Fisheries Science Center; Miami, FL Laboratory (SEFSC - Miami Lab)
+Email: margaret.w.miller@noaa.gov
+Role: pointOfContact
+
+The following non-ATDB metadata was provided:
+Related Funding Agency: US DOC; NOAA; NMFS; Southeast Fisheries Science Center; Miami, FL Laboratory (institutions_id 609)
+Related Funding Agency: US DOC; NOAA; NOS; Coral Reef Conservation Program (institutions_id 1714)
+datatypes-0: A. cervicornis
+datatypes-1: Coral restoration
+datatypes-2: CRF Nursery Reef
+datatypes-3: Disease
+datatypes-4: Predation
+insttypes-0: na
+obstypes-0: na
+seanames-0: Aquarius Reef
+seanames-1: Conch Shallow Reef
+seanames-2: Florida Keys
+seanames-3: French Reef
+seanames-4: KL Dry Rocks
+seanames-5: Little Conch Reef
+seanames-6: Molasses Reef
+seanames-7: Pickles Reef
+seanames-8: Tav Patch A
+seanames-9: Tav Patch b

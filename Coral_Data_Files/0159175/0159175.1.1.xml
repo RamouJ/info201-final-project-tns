@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<accession manifest_version="2">
+  <head>
+    <id>0159175</id>
+    <version>1.1</version>
+    <timestamp>2017-02-02 12:46:07+00</timestamp>
+    <host>mare</host>
+    <directory>/nodc/archive/arc0104/0159175/1.1/</directory>
+    <file_count>30</file_count>
+    <byte_count>5929292</byte_count>
+  </head>
+  <body>
+    <files>
+      <file>
+        <path>NODC-Readme.txt</path>
+        <digest algorithm="md5">4ed87de71d73f3bf04f48b23591265ca</digest>
+        <digest algorithm="sha1">7f0f82e8500dd343d4c7e0ff4f7259d50c297a91</digest>
+        <digest algorithm="sha256">700575ea312083223095e1c8f7a54a1e7bcfc790146ed4ccb1bbad247a3b6aa3</digest>
+        <digest algorithm="sha384">c890984f8709860ae0958cee10e489b3aa5d5ddfbfde51da6d500a2609c91fb8724767494200ce974281f2799d256fa3</digest>
+        <digest algorithm="sha512">c65c6154c459e490bf5842423f38628ceda74e4c8101f32ab88273a0af018433241ca0327b8e1015bca7bed1de9dc12bf216d129cd8b900fb2fb547ac8559aaa</digest>
+        <type_category>regular</type_category>
+        <type>text</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>2816</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2013-12-08 14:53:02+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103773</inode>
+      </file>
+      <file>
+        <path>about</path>
+        <digest algorithm="md5">d41d8cd98f00b204e9800998ecf8427e</digest>
+        <digest algorithm="sha1">da39a3ee5e6b4b0d3255bfef95601890afd80709</digest>
+        <digest algorithm="sha256">e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</digest>
+        <digest algorithm="sha384">38b060a751ac96384cd9327eb1b1e36a21fdb71114be07434c0cc7bf63f6e1da274edebfe76f65fbd51ad2f14898b95b</digest>
+        <digest algorithm="sha512">cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e</digest>
+        <type_category>irregular</type_category>
+        <type>directory</type>
+        <permissions>drwxrwxr-x</permissions>
+        <linkcount>2</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>4096</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2017-01-31 21:21:01+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103771</inode>
+      </file>
+      <file>
+        <path>about/0-email.txt</path>
+        <digest algorithm="md5">c6b09390c596c4c71cdd7b607082dcfb</digest>
+        <digest algorithm="sha1">1bac1dfb211c1d8893386e0d02911ec236b45122</digest>
+        <digest algorithm="sha256">a5587cc40e1b111b5a10dc822de991294b17a380e9298333ac9fad2c93f329bf</digest>
+        <digest algorithm="sha384">1adfe9ffb96d1279117d827e3c9806cfffa45c7183c8134bd835005dfaade55b5b693196747d692d388462da571135bb</digest>
+        <digest algorithm="sha512">4d2baf61456c90dd2265c24c5837f5afd6e35e8cbcc1fc793d12005526004c5632260e90d1654d8f5bce331d75247bc4e55ccc248a9a141ef513ec371f93a39b</digest>
+        <type_category>regular</type_category>
+        <type>text</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>1525</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2017-01-31 20:51:30+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103775</inode>
+      </file>
+      <file>
+        <path>about/0159175_lonlat.txt</path>
+        <digest algorithm="md5">503f422512378f6aeec8a66b0f9fc8d2</digest>
+        <digest algorithm="sha1">889664f66d9cf42cf09c34656f14aeb05aeb1e91</digest>
+        <digest algorithm="sha256">e224fc548f6902b1dc40726ce400577b218295711f7853594e62d341eccd7eb0</digest>
+        <digest algorithm="sha384">341b7e7c5cf43f02fd852e70cc51e0089215f90d9df0b48d4b60502c2ae0b0a6919ac83177047ceaccf0165a5e4b774d</digest>
+        <digest algorithm="sha512">81f77e60a81309e4e76929912e49467523362cb12c4e0ffb1b784856ed43616fd45a20f953035dfe1412dd12407f54bb693e306e291c55df1e89bbe4e45c7260</digest>
+        <type_category>regular</type_category>
+        <type>text</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>246</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2017-01-31 21:20:43+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103782</inode>
+      </file>
+      <file>
+        <path>about/0159175_map.jpg</path>
+        <digest algorithm="md5">61cdfefba15bfe1f7d1ddd1c3d594987</digest>
+        <digest algorithm="sha1">a57b625c44451ef08540afc4317301109afd817c</digest>
+        <digest algorithm="sha256">c7297f6cf88f114d21407e0f512e48f9d6e308e65fc06196a65842aaf44af168</digest>
+        <digest algorithm="sha384">4e19e78eedaf8eb67f8551d61c4e24c76397cc3cd256e8c16a19297af1e07cbf6f2ec60cb897b8a34fb2b5a6e6d91fc2</digest>
+        <digest algorithm="sha512">bb8292c8b4b97dce7474b8663a6ce4495d1f2250145fb4381c9c4cce4bb3f4e571bcd1396f81ee9819c7a08ee5031d9644492ce5e675cc0e41e05c184bac1076</digest>
+        <type_category>regular</type_category>
+        <type>binary</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>159918</size>
+        <blksize>32768</blksize>
+        <blocks>320</blocks>
+        <modtime>2017-01-31 21:20:46+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103783</inode>
+      </file>
+      <file>
+        <path>about/9TPP22-confirmation_email.txt</path>
+        <digest algorithm="md5">9dd01315bf03d3872496d788ffb92253</digest>
+        <digest algorithm="sha1">29dc88e58e64267a0cf446c911c5a033224e09d3</digest>
+        <digest algorithm="sha256">147e4ae2dd143dbc131b3ca1ab1dae0d9f7a999eec04c18302b9a34a464a456a</digest>
+        <digest algorithm="sha384">66cc35f9a6f77f9c45ba48848c46baa14f2d95ccedd6d6139a29d5131f933bad819027a01d8b71a5df1f125a2a8bf781</digest>
+        <digest algorithm="sha512">a1be3f6cfc746bd037a8b129bd43772e5262b33555d09adeb85f4673cb7a13a4b0fd6b5514696b3af181c750e67f9d1b82a4cb704af0dcaf666a00dbfd6fa8fa</digest>
+        <type_category>regular</type_category>
+        <type>text</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>1926</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2017-01-05 16:45:11+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103784</inode>
+      </file>
+      <file>
+        <path>about/9TPP22-report.txt</path>
+        <digest algorithm="md5">7edec294596f73e80a0a14f8d57b6e01</digest>
+        <digest algorithm="sha1">776cd3112cf7f2715c30e9192a484e9223df678a</digest>
+        <digest algorithm="sha256">6a4bd58ffe660077addca7be78b842474f98e7baa397f9d6eb9bd535da526d34</digest>
+        <digest algorithm="sha384">e1881fa84f56120e78f41f3719d00ddd71f869b21ac24715478ea0f0c34bb4ef83a04b74968cf4c42c99ac0135999463</digest>
+        <digest algorithm="sha512">c3a0009b852b15f429d3309cc14334806619292c3955415316ef598606ef87b57a79f41563f82199486f95bb3536ee556c4c3bcca5c4e04cb221b80b9e538735</digest>
+        <type_category>regular</type_category>
+        <type>text</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>1210</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2017-01-17 14:35:11+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103785</inode>
+      </file>
+      <file>
+        <path>about/journal.txt</path>
+        <digest algorithm="md5">79bd7a340afa732da93895bbf45000bf</digest>
+        <digest algorithm="sha1">e4ed2862602ea7b6060c6eeae32b998bd5977a5c</digest>
+        <digest algorithm="sha256">1992673ad84d0a377b0904ae1616f99a0452f7c8222ac0b9a652804b343d05b5</digest>
+        <digest algorithm="sha384">296788456fb8122aac3b47058ef2d00bca526db7bd30b48396142bc7e842f271e9055fbbb586ccdb5a2834f410fa157a</digest>
+        <digest algorithm="sha512">74be193b844656f208f6c7a25e91b78d45222021dc1b6e59d5cc8d64b8e55516a2b7a2781ebd595542a8de90f9ecc5378cc346f047673ca259909d2a8af6e4d9</digest>
+        <type_category>regular</type_category>
+        <type>text</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>3411</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2017-02-01 14:01:20+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103786</inode>
+      </file>
+      <file>
+        <path>data</path>
+        <digest algorithm="md5">d41d8cd98f00b204e9800998ecf8427e</digest>
+        <digest algorithm="sha1">da39a3ee5e6b4b0d3255bfef95601890afd80709</digest>
+        <digest algorithm="sha256">e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</digest>
+        <digest algorithm="sha384">38b060a751ac96384cd9327eb1b1e36a21fdb71114be07434c0cc7bf63f6e1da274edebfe76f65fbd51ad2f14898b95b</digest>
+        <digest algorithm="sha512">cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e</digest>
+        <type_category>irregular</type_category>
+        <type>directory</type>
+        <permissions>drwxrwxr-x</permissions>
+        <linkcount>3</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>4096</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2017-01-17 14:35:05+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103772</inode>
+      </file>
+      <file>
+        <path>data/0-data</path>
+        <digest algorithm="md5">d41d8cd98f00b204e9800998ecf8427e</digest>
+        <digest algorithm="sha1">da39a3ee5e6b4b0d3255bfef95601890afd80709</digest>
+        <digest algorithm="sha256">e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</digest>
+        <digest algorithm="sha384">38b060a751ac96384cd9327eb1b1e36a21fdb71114be07434c0cc7bf63f6e1da274edebfe76f65fbd51ad2f14898b95b</digest>
+        <digest algorithm="sha512">cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e</digest>
+        <type_category>irregular</type_category>
+        <type>directory</type>
+        <permissions>drwxrwxr-x</permissions>
+        <linkcount>3</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>4096</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2017-01-17 14:35:06+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103774</inode>
+      </file>
+      <file>
+        <path>data/0-data/22438</path>
+        <digest algorithm="md5">d41d8cd98f00b204e9800998ecf8427e</digest>
+        <digest algorithm="sha1">da39a3ee5e6b4b0d3255bfef95601890afd80709</digest>
+        <digest algorithm="sha256">e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</digest>
+        <digest algorithm="sha384">38b060a751ac96384cd9327eb1b1e36a21fdb71114be07434c0cc7bf63f6e1da274edebfe76f65fbd51ad2f14898b95b</digest>
+        <digest algorithm="sha512">cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e</digest>
+        <type_category>irregular</type_category>
+        <type>directory</type>
+        <permissions>drwxrwxr-x</permissions>
+        <linkcount>7</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>4096</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2017-01-31 20:52:08+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103776</inode>
+      </file>
+      <file>
+        <path>data/0-data/22438/22438.xml</path>
+        <digest algorithm="md5">64541c69dd132f998caebec625bee9f7</digest>
+        <digest algorithm="sha1">ba0bc27b91c1e84e719cbccab6ee2594b56264de</digest>
+        <digest algorithm="sha256">eeccd9b85298aa47a80fd0cb60d880ebd0927ff755700d2e16a12ad5ce0d282d</digest>
+        <digest algorithm="sha384">98b0f2ee5d424d1fba5353cd54601c2080773ea4d133d3ed98ef06ecfa4210855eb9442e8ce5cef895b94d15a0b70f8a</digest>
+        <digest algorithm="sha512">bd87c13e4d635e742e2b8cfcd4c5b62a5b1180d91d5d9400839beee462190bda464d10963d891826dd93bc4e005307db3227a2dcefc8c82335adfc7caa6477c2</digest>
+        <type_category>regular</type_category>
+        <type>text</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>34358</size>
+        <blksize>32768</blksize>
+        <blocks>72</blocks>
+        <modtime>2017-01-31 20:51:35+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103788</inode>
+      </file>
+      <file>
+        <path>data/0-data/22438/Colony_Condition</path>
+        <digest algorithm="md5">d41d8cd98f00b204e9800998ecf8427e</digest>
+        <digest algorithm="sha1">da39a3ee5e6b4b0d3255bfef95601890afd80709</digest>
+        <digest algorithm="sha256">e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</digest>
+        <digest algorithm="sha384">38b060a751ac96384cd9327eb1b1e36a21fdb71114be07434c0cc7bf63f6e1da274edebfe76f65fbd51ad2f14898b95b</digest>
+        <digest algorithm="sha512">cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e</digest>
+        <type_category>irregular</type_category>
+        <type>directory</type>
+        <permissions>drwxrwxr-x</permissions>
+        <linkcount>2</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>4096</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2017-01-17 14:35:06+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103777</inode>
+      </file>
+      <file>
+        <path>data/0-data/22438/Colony_Condition/Colony_Condition_Metadata.csv</path>
+        <digest algorithm="md5">15ef20af3378ed642a0f56b71b013d5e</digest>
+        <digest algorithm="sha1">f42711178b834108d538dfa04bce22fa371f9f90</digest>
+        <digest algorithm="sha256">da645b443315e9149a0df15c7b5ea19089c5eb0f5c0414b87b20bc7703b9d17d</digest>
+        <digest algorithm="sha384">99d0be69cd263868d8ab1a2b5345d0ee030f2a5e58386ee6ac52c04ca81f4f8363c3ed52c61de9f5c9e760040e5a5ca9</digest>
+        <digest algorithm="sha512">9e4f25703efa07ede2cf63cd8f95d3480988d72eb0e3d8cb245e4b490aaee40f42b6f85dbd3a5b2ccd4b315bad30d415832b4c75a35e8d11447900e7d42bd260</digest>
+        <type_category>regular</type_category>
+        <type>text</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>676</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2017-01-03 12:03:26+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103791</inode>
+      </file>
+      <file>
+        <path>data/0-data/22438/Colony_Condition/colony_condition.csv</path>
+        <digest algorithm="md5">e05336ae3aef1e4299e424761cd97eff</digest>
+        <digest algorithm="sha1">4475308301c14cbcf7254b8e5bb30ca582835831</digest>
+        <digest algorithm="sha256">bb8fdf5117ea10ab53317947eef938c99729de6dd95a8f76beea94112be8e43e</digest>
+        <digest algorithm="sha384">789bf680321b647c95226586d6535985fc7fd2f83ff4ce60fa2f0dc5222719ce7f0f1cd35620fe255205c3d40ac06b65</digest>
+        <digest algorithm="sha512">b282e6ed4face2b59e4d779f2db8cf1fc0a3e262a88dfbb1d492c5a9967894d1415b63060165c3748bf0186ba56b9321e9f1adb852cf153f1c089c4c4a50db43</digest>
+        <type_category>regular</type_category>
+        <type>text</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>17053</size>
+        <blksize>32768</blksize>
+        <blocks>40</blocks>
+        <modtime>2016-11-28 08:07:50+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103792</inode>
+      </file>
+      <file>
+        <path>data/0-data/22438/Dataset_Metadata.txt</path>
+        <digest algorithm="md5">61182a65584b91dea5da6b07ee6da2aa</digest>
+        <digest algorithm="sha1">5f1fb488c89d6fe4ba2f06cc26343566a56c7039</digest>
+        <digest algorithm="sha256">460afabc29802d412ab5b1f6ece75cf375e8b02f8c5adbb3766c9576057d4dd2</digest>
+        <digest algorithm="sha384">ea4c40ee076764a5f92204d099ae2657a6f765dc54de568b19075dbf563e10b921741c29579cee86b6abf27da86c3224</digest>
+        <digest algorithm="sha512">0ea166b1a5773b02fab7588eeaaab3d52f05bd9f6b3fe71b4391e32d5136dfc8b96c725ec76d60159ee2b309a2ee453805fb49f3876a1e2def702b4a74404ea8</digest>
+        <type_category>regular</type_category>
+        <type>text</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>59</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2017-01-05 08:33:56+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103789</inode>
+      </file>
+      <file>
+        <path>data/0-data/22438/Mitigation_Experiments</path>
+        <digest algorithm="md5">d41d8cd98f00b204e9800998ecf8427e</digest>
+        <digest algorithm="sha1">da39a3ee5e6b4b0d3255bfef95601890afd80709</digest>
+        <digest algorithm="sha256">e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</digest>
+        <digest algorithm="sha384">38b060a751ac96384cd9327eb1b1e36a21fdb71114be07434c0cc7bf63f6e1da274edebfe76f65fbd51ad2f14898b95b</digest>
+        <digest algorithm="sha512">cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e</digest>
+        <type_category>irregular</type_category>
+        <type>directory</type>
+        <permissions>drwxrwxr-x</permissions>
+        <linkcount>2</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>4096</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2017-01-17 14:35:06+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103778</inode>
+      </file>
+      <file>
+        <path>data/0-data/22438/Mitigation_Experiments/Mitigation_Experiments_Metadata.csv</path>
+        <digest algorithm="md5">562041c5e2df1ecbd9022eb38bccd1aa</digest>
+        <digest algorithm="sha1">0a8d4f6282cf0f5e0c844147c2cb23344ee6c563</digest>
+        <digest algorithm="sha256">d282340ee2553612713c4836ab1f26d3e4f989637258e85aae5697f17fe2dc1b</digest>
+        <digest algorithm="sha384">033d1ce2869516ecd3ee85ecf2a6dd2b1838337185dd2a58b0387a35cad53e0eaa246366c96c340f66ef9cd7e70e54c3</digest>
+        <digest algorithm="sha512">028c03618b41cc7c03a7007fecc8f48402f3ac080d1f7fba832922f3454f4d918eedbf2a5980bc3503c6d3947389a282254d47dafa2fcfb6a81f60a8c02a8125</digest>
+        <type_category>regular</type_category>
+        <type>text</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>527</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2017-01-03 12:14:14+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103793</inode>
+      </file>
+      <file>
+        <path>data/0-data/22438/Mitigation_Experiments/mitigation_experiments.csv</path>
+        <digest algorithm="md5">07d45ce9632b9635f93e9a31c37ee169</digest>
+        <digest algorithm="sha1">bacb2db9b3e146de66a060533109819d7d1cf953</digest>
+        <digest algorithm="sha256">37ce6f1a45907485aabb94523abfb7b7d03b305f5f2c3957ac61584cc21404c0</digest>
+        <digest algorithm="sha384">6500a09f58848fcacabf7b0da5c60e06f3ad5cac4eab7dbcc79b1f5a52ec32d66e4bf95c201d4cfb2e52ffa08ce934ca</digest>
+        <digest algorithm="sha512">e21cc0cf835a232b6a238de4c58f59a44920176be6ff9f21f85f2e28db111efdb8d01e3789df9090bbce43b440b82fa36e7536a2376225b3bb375b2d7fa6dbb9</digest>
+        <type_category>regular</type_category>
+        <type>text</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>13896</size>
+        <blksize>32768</blksize>
+        <blocks>32</blocks>
+        <modtime>2017-01-05 07:45:08+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103794</inode>
+      </file>
+      <file>
+        <path>data/0-data/22438/Partial_Mortality</path>
+        <digest algorithm="md5">d41d8cd98f00b204e9800998ecf8427e</digest>
+        <digest algorithm="sha1">da39a3ee5e6b4b0d3255bfef95601890afd80709</digest>
+        <digest algorithm="sha256">e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</digest>
+        <digest algorithm="sha384">38b060a751ac96384cd9327eb1b1e36a21fdb71114be07434c0cc7bf63f6e1da274edebfe76f65fbd51ad2f14898b95b</digest>
+        <digest algorithm="sha512">cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e</digest>
+        <type_category>irregular</type_category>
+        <type>directory</type>
+        <permissions>drwxrwxr-x</permissions>
+        <linkcount>2</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>4096</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2017-01-17 14:35:06+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103779</inode>
+      </file>
+      <file>
+        <path>data/0-data/22438/Partial_Mortality/Partial_Mortality_Metadata.csv</path>
+        <digest algorithm="md5">420561c5461e42cc1a362a4b79cbea25</digest>
+        <digest algorithm="sha1">c21ca4fd037f30bfd80bd356a7c928a311b75a82</digest>
+        <digest algorithm="sha256">93c35b0ac53c83b572b2b0f510d05e94b1f33f224bfe6c1bfc816f17287345c1</digest>
+        <digest algorithm="sha384">4849de11cef17f1079ab5fa0a138a41661690b606202e902d569d9cde387abcb1225254d205455074bc9acdbbd0e7e47</digest>
+        <digest algorithm="sha512">7c5ee88e6a535c6681c09c702c934d02c51f9fa49a805081d4a5d7fc6119015fdb05ad123c878ce9a9fc141f0e7d530d66379cd0c271ec87374fd12a392b06c1</digest>
+        <type_category>regular</type_category>
+        <type>text</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>618</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2017-01-03 10:29:10+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103795</inode>
+      </file>
+      <file>
+        <path>data/0-data/22438/Partial_Mortality/partial_mortality.csv</path>
+        <digest algorithm="md5">1e6d2c75aa406b82b7fc5f1acf39936f</digest>
+        <digest algorithm="sha1">2ac68a2d2ecce57e5e65c1ba32ee4b28de32267f</digest>
+        <digest algorithm="sha256">e0d5c12eae01ef44a210597309a690c5ad296ef35cf72b3a123d3b26ec13484e</digest>
+        <digest algorithm="sha384">ba1dfba1e78e3d11cb3202650b8da9cc6bcffbff15aab0871be8a3988bc16792b0781f3293863a8dab96a2985d5090cf</digest>
+        <digest algorithm="sha512">cf12a17f7218c90b148012c16fbb1b4bddaa26de10da5202b1a29a3faa6464808e676e6e19060c6af87ab22e80eadf32a1a3c571c053feec6c058a7ce2f1eca7</digest>
+        <type_category>regular</type_category>
+        <type>text</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>11431</size>
+        <blksize>32768</blksize>
+        <blocks>24</blocks>
+        <modtime>2016-11-28 08:08:04+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103796</inode>
+      </file>
+      <file>
+        <path>data/0-data/22438/Treatment_Codes</path>
+        <digest algorithm="md5">d41d8cd98f00b204e9800998ecf8427e</digest>
+        <digest algorithm="sha1">da39a3ee5e6b4b0d3255bfef95601890afd80709</digest>
+        <digest algorithm="sha256">e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</digest>
+        <digest algorithm="sha384">38b060a751ac96384cd9327eb1b1e36a21fdb71114be07434c0cc7bf63f6e1da274edebfe76f65fbd51ad2f14898b95b</digest>
+        <digest algorithm="sha512">cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e</digest>
+        <type_category>irregular</type_category>
+        <type>directory</type>
+        <permissions>drwxrwxr-x</permissions>
+        <linkcount>2</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>4096</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2017-01-17 14:35:06+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103780</inode>
+      </file>
+      <file>
+        <path>data/0-data/22438/Treatment_Codes/Treatment_Codes_Metadata.csv</path>
+        <digest algorithm="md5">61b5db5dfa93b5a53611a1bf74e46798</digest>
+        <digest algorithm="sha1">13a30be0db7d1a3dda51f2c29a757c4fe51ef22d</digest>
+        <digest algorithm="sha256">e564e1a5e22431157a4b3ecbe59ec394a43ea490f5111d2a81facef0982a2291</digest>
+        <digest algorithm="sha384">4dc1c714118d38a28915f57173a3cbdb0d3b7525bb68e9c61fd7af05ce7d8a92622a2bef3bb20096fed05f66858c3b0c</digest>
+        <digest algorithm="sha512">9a3ca5f014f6a9ad75fa963a297b0df812a8a213e3cf316deec2e91213e79276d5780d69303cc41fda543d697d49737345855e09f7d083f9599ffa5521949018</digest>
+        <type_category>regular</type_category>
+        <type>text</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>101</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2017-01-03 12:20:22+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103797</inode>
+      </file>
+      <file>
+        <path>data/0-data/22438/Treatment_Codes/teatment_codes.csv</path>
+        <digest algorithm="md5">a02e443b1e95dda3b5c09fc8d85fee71</digest>
+        <digest algorithm="sha1">4ed69cd4d65c47d5d951daef1757f1882e053b52</digest>
+        <digest algorithm="sha256">275f34766c6c157917a0f91d62cffce1f8840a918498e4f27cc31533fb1de1ad</digest>
+        <digest algorithm="sha384">70c838520fd4085de1f00d939fb189d0efcf2295712b8be4d20c9de9625802d1292d6e0d14519bdc28e205a7a1181326</digest>
+        <digest algorithm="sha512">e827553660152168f86b0c133a1311527b5f02e9aa55349fd34d5b475ac5cd8814e99314e7d25ade0d48dfda9f5bb087b93bf0b1d87f552b100444232bd03dc3</digest>
+        <type_category>regular</type_category>
+        <type>text</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>333</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2016-11-28 08:08:08+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103798</inode>
+      </file>
+      <file>
+        <path>data/0-data/22438/Type_Codes</path>
+        <digest algorithm="md5">d41d8cd98f00b204e9800998ecf8427e</digest>
+        <digest algorithm="sha1">da39a3ee5e6b4b0d3255bfef95601890afd80709</digest>
+        <digest algorithm="sha256">e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</digest>
+        <digest algorithm="sha384">38b060a751ac96384cd9327eb1b1e36a21fdb71114be07434c0cc7bf63f6e1da274edebfe76f65fbd51ad2f14898b95b</digest>
+        <digest algorithm="sha512">cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e</digest>
+        <type_category>irregular</type_category>
+        <type>directory</type>
+        <permissions>drwxrwxr-x</permissions>
+        <linkcount>2</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>4096</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2017-01-17 14:35:06+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103781</inode>
+      </file>
+      <file>
+        <path>data/0-data/22438/Type_Codes/Type_Codes_Metadata.csv</path>
+        <digest algorithm="md5">6590ccc7834ca678810e3aeb6fe03144</digest>
+        <digest algorithm="sha1">77f4517140dd4cfef762f32fbf781b91a84aef1e</digest>
+        <digest algorithm="sha256">4b36bb25837c3e3b89ed67a5ec60ebb58d073462aafd27203aabd93a06e42eca</digest>
+        <digest algorithm="sha384">82a85c53f648cfcfbd5a1af85bf69965fcf9651a481734367a30b3edf73f635a1d095eff1b7c59a974a932641cc508cb</digest>
+        <digest algorithm="sha512">1397bed2296559d0dccab88a31123cc782f2b3e12fd488544360fdbe23e2faaaab47160682178cf80f8a286486ef5fbeb360ad6f071f19dafc9d7e89e0bd4de0</digest>
+        <type_category>regular</type_category>
+        <type>text</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>113</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2017-01-03 12:22:46+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103799</inode>
+      </file>
+      <file>
+        <path>data/0-data/22438/Type_Codes/type_codes.csv</path>
+        <digest algorithm="md5">8892889cc4b8fef375cf0317ae546fd2</digest>
+        <digest algorithm="sha1">45c6c1b34a485bf8ab77e322744c555dca886ce6</digest>
+        <digest algorithm="sha256">9e9831d3f2e347bee5ddf27a35caf35fa0b0fcbe70b6bd6c715b8a77fccc5fe6</digest>
+        <digest algorithm="sha384">181fca764327452f73a2d972b3b2b59a75f345a02b52dbf5a9ab870f81967d4818906847277b9e93fe60231af94108e5</digest>
+        <digest algorithm="sha512">471996e2e5cdfd45c86915de746b3e7bac5e0d8c28392603ce93f3a6665cbdea8e2d98c65c6f77345c72532f67ff08edd13f07e55bace8e1a081ab9796cfc991</digest>
+        <type_category>regular</type_category>
+        <type>text</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>243</size>
+        <blksize>32768</blksize>
+        <blocks>8</blocks>
+        <modtime>2016-11-28 08:08:12+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:07+00</sumtime>
+        <inode>21103800</inode>
+      </file>
+      <file>
+        <path>data/0-data/22438/peerj-541.pdf</path>
+        <digest algorithm="md5">4b06afb00dd90d4b941cfed8c00065e1</digest>
+        <digest algorithm="sha1">a1a440171a83b9e4fec9390a45e4297331a46886</digest>
+        <digest algorithm="sha256">0384a708f0ff6fb3e784d4b534fcca8627b8441d7fbe69cc7cd3ccf23a042200</digest>
+        <digest algorithm="sha384">f16bfe468e39c966100bd40b9fa81cb8557f91d0d658a5fd5202926fd871d8322ade089fa638a8b9d89458a7d71e25b2</digest>
+        <digest algorithm="sha512">a4cab9011830564cd395f35b3fadb68f4828c4f17ef215b9b4ee78593f4b7bd87da0e203db672304ee1fdfa3a395795b4d3bbaf4386b9c55b4a95c2f3b2d786a</digest>
+        <type_category>regular</type_category>
+        <type>text</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>5624012</size>
+        <blksize>32768</blksize>
+        <blocks>10992</blocks>
+        <modtime>2016-11-28 08:08:36+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:08+00</sumtime>
+        <inode>21103790</inode>
+      </file>
+      <file>
+        <path>data/0-data/9TPP22-ISO-19115-2.xml</path>
+        <digest algorithm="md5">f7187408053ac028f5cf9a20f7aa385f</digest>
+        <digest algorithm="sha1">313e2e646d0e0658b5844c4824592d312a569aaa</digest>
+        <digest algorithm="sha256">1cff1e5cea07bd27c84baf0779cc40c0ab364953d7ad9fccaeb3b460e89cb252</digest>
+        <digest algorithm="sha384">d5d90cd9eec924ba82a72d4a3a53c2eecad6286bd80072dc57aff0de452d6a3fbaa52e06bd93af1a99efced800654821</digest>
+        <digest algorithm="sha512">2b8f9451df6886e7767454709b2c64e9382212e504d219d66225f5a450dd43980d1751e919e8e578a24a0eacf4d1fdf86f130f3839280ecf1d0e7ea00b169745</digest>
+        <type_category>regular</type_category>
+        <type>text</type>
+        <permissions>-rw-rw-r--</permissions>
+        <linkcount>1</linkcount>
+        <user>root</user>
+        <group>root</group>
+        <size>17956</size>
+        <blksize>32768</blksize>
+        <blocks>40</blocks>
+        <modtime>2017-01-05 16:45:07+00</modtime>
+        <changetime>2017-02-02 12:46:07+00</changetime>
+        <acctime>2017-02-02 12:46:07+00</acctime>
+        <sumtime>2017-02-02 12:46:08+00</sumtime>
+        <inode>21103787</inode>
+      </file>
+    </files>
+  </body>
+</accession>

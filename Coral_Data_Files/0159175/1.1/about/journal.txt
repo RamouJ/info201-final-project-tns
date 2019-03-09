@@ -1,0 +1,73 @@
+*****************************************************************
+Journal for accession number:  0159175
+Created on:                    2017-01-17 14:35:10 UTC
+By:                            Sarah O'Connor,OGSSD/OSDB,SSMC3 4640,7134870
+
+Source: data/0-data/ This directory contains files in their original format
+as downloaded to NCEI. David Huddleston, Riverside/NOAA, submitted data and
+metadata to NCEI in submission package 9TPP22 via S2N.
+
+Actions: An automated procedure copied the files from the submission package
+into this accession. A metadata record in ISO 19115-2 XML format was also
+generated from the information provided by the submitter and was copied into
+this accession. Copyrighted materials were removed from the data package.
+
+Files:
+
+about/ 
+This directory contains files created by NCEI staff and processing, including
+'negotiable' information between NCEI staff and the data provider.
+
+0-email.txt - Email exchange between NCEI and the data provider discussing the need
+  to remove copyrighted materials from the archival package and requesting a copy of
+  the InPort documentation.
+
+9TPP22-confirmation_email.txt -
+  Email from the Send2NCEI web application to David Huddleston,
+  Riverside/NOAA, confirming that NCEI has created an archival information
+  package.
+
+9TPP22-report.txt -
+  Automatically generated report containing information about the automated
+  processing of this accession and provider-specific metadata. This report
+  is intended for use by the Data Content Manager assigned to this
+  accession.
+
+0159175_lonlat.txt - Contains sample locations for these data.  Each row
+  contains the geographical position where these data were collected (longitude 
+  in the left column and latitude in the right column, both in degrees).  
+  NCEI may have corrected geographic positions that seemed to be in error 
+  when generating this file. However, NCEI did not change the original data 
+  files under the directory data/0-data/.
+
+0159175_map.jpg - 
+  Sample location map for these data.
+
+data/0-data/
+This directory contains files in their original format as downloaded to NCEI.
+
+\Colony_Condition\ - Contains surveillance data documenting how many surveyed colonies at each site were 
+  observed with active disease or predation over time.
+
+\Partial_Mortality\ - data file that contains sequential observations of colony partial mortality of a set 
+  of individual colonies that were tagged in 2012
+
+\Mitigation_Experiments\ - data file that indicates the observed fate (i.e., continued tissue loss or arrest
+  of tissue loss observed after ~ 4 weeks) of diseased coral branches which were treated in three ways
+
+\Treatment_Codes\ - Lists experimental treatment codes and their descriptions
+
+\Type_Codes\ - 	Lists origin for colonies under surveillance and their descriptions
+
+22438.xml - Data provider documentation in InPort XML format
+
+Dataset_Metadata.txt - documentation which explains what blank values mean in the data files.
+
+peerj-541.pdf - Peer reviewed journal article produced from this study
+
+Removed files
+  The following copyrighted materials were removed from the archival package and listed as crossreferences
+  in the NCEI documentation.
+
+  Miller MW, Marmet C, Cameron CM, Williams DE (2014) Prevalence, consequences, and mitigation of fireworm 
+  predation on endangered staghorn coral. Mar Ecol Prog Ser 516:187-194. https://doi.org/10.3354/meps10996 

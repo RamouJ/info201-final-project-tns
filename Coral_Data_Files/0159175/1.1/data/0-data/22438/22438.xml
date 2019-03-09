@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inport-metadata xmlns:xs="http://www.w3.org/2001/XMLSchema" version="0.9">
+   <item-identification>
+      <catalog-item-id>22438</catalog-item-id>
+      <title>CRCP-Surveillance of wild and outplanted A.cervicornis</title>
+      <short-name>Surveillance of wild and outplanted staghorn coral (A.cervicornis)</short-name>
+      <catalog-item-type>Data Set</catalog-item-type>
+      <metadata-workflow-state ccs-id="9">Published / External</metadata-workflow-state>
+      <parent-catalog-item-id>22437</parent-catalog-item-id>
+      <parent-title>Surveillance of wild and outplanted staghorn coral (A.cervicornis)</parent-title>
+      <parent-catalog-item-type>Project</parent-catalog-item-type>
+      <status>Complete</status>
+      <abstract>The threatened status (both ecologically and legally) of Caribbean staghorn coral, Acropora cervicornis, has prompted rapidly expanding efforts in culture and restocking, although tissue loss diseases and predation continue to affect populations. In this study, surveillance of disease and predation conditions was used to compare dynamics and conditions in both restored and extant wild populations in order to better understand characteristics of restored populations and inform the possible implementation of differential health management strategies for wild vs. restored populations.  Surveys at multiple sites with  colonies were conducted every 2 to 4 weeks during two summer seasons to document disease and predation prevalence and disease incidence.  Additional work in a third year focused on quantifying the effects of fireworm predation on restored corals, including healing times.   In addition to surveillance, experimental tests were performed for possible proactive interventions designed to mitigate both disease and fireworm predation conditions</abstract>
+      <purpose>To compare disease and predation effects between wild and outplanted/restored colonies of Acropora cervicornis</purpose>
+      <notes>This project had both monitoring/assessment and experimental components.
+
+This dataset pertains to a 2 year, multifaceted study comparing disease and predation dynamics between restored and wild populations of Acropora cervicornis</notes>
+      <other-citation-details>Disease dynamics and potential mitigation among restored and wild staghorn coral, Acropora cervicornis
+
+Margaret W. Miller, Kathryn E. Lohr, Caitlin M. Cameron, Dana E. Williams, Esther C. Peters 
+
+https://doi.org/10.7717/peerj.541
+
+
+Miller MW, Marmet C, Cameron CM, Williams DE. (2014) Prevalence, consequences, and mitigation of fireworm predation on endangered staghorn coral. Mar Ecol Prog Ser. 516: 187–194. doi: 10.3354/meps10996
+
+
+
+</other-citation-details>
+   </item-identification>
+   <keywords>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>None</thesaurus>
+         <keyword>Disease</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>None</thesaurus>
+         <keyword>Predation</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>None</thesaurus>
+         <keyword>Coral restoration</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>None</thesaurus>
+         <keyword>CRF Nursery Reef</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Theme</keyword-type>
+         <thesaurus>None</thesaurus>
+         <keyword>A.cervicornis</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>None</thesaurus>
+         <keyword>Florida Keys</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>None</thesaurus>
+         <keyword>Molasses Reef</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>None</thesaurus>
+         <keyword>Aquarius Reef</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>None</thesaurus>
+         <keyword>Conch Shallow Reef</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>None</thesaurus>
+         <keyword>French Reef</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>None</thesaurus>
+         <keyword>Pickles Reef</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>None</thesaurus>
+         <keyword>Tav Patch A</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>None</thesaurus>
+         <keyword>Tav Patch b</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>None</thesaurus>
+         <keyword>Little Conch Reef</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Spatial</keyword-type>
+         <thesaurus>None</thesaurus>
+         <keyword>KL Dry Rocks</keyword>
+      </keyword>
+      <keyword>
+         <keyword-type>Temporal</keyword-type>
+         <thesaurus>None</thesaurus>
+         <keyword>2011-2012</keyword>
+      </keyword>
+   </keywords>
+   <physical-location>
+      <organization>Southeast Fisheries Science Center</organization>
+      <city>Miami</city>
+      <state-province>FL</state-province>
+      <country>USA</country>
+      <location-description>Location Of The Main Office Of The South East Fisheries Science Center</location-description>
+   </physical-location>
+   <data-set-information>
+      <data-presentation-form>Table (digital)</data-presentation-form>
+      <instrument>digital cameras</instrument>
+      <platform>N/A</platform>
+      <physical-collection-fishing-gear>N/A</physical-collection-fishing-gear>
+   </data-set-information>
+   <entity-attribute-information>
+      <entity>
+         <catalog-item-id>35494</catalog-item-id>
+         <title>treatment_codes.csv</title>
+         <metadata-workflow-state ccs-id="9">Published / External</metadata-workflow-state>
+         <status>Complete</status>
+         <abstract>Lists experimental treatment codes and their descriptions</abstract>
+         <entity-information>
+            <active-version>Yes</active-version>
+            <description>Lists of Valid treatment codes</description>
+         </entity-information>
+         <data-attributes>
+            <data-attribute>
+               <cc-id>355808</cc-id>
+               <seq-order>5</seq-order>
+               <name>Treatment</name>
+               <data-storage-type>Character</data-storage-type>
+               <max-length>20</max-length>
+               <is-required>Yes</is-required>
+               <is-pkey>Yes</is-pkey>
+               <status>Active</status>
+               <description>Experimental treatment</description>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355807</cc-id>
+               <seq-order>10</seq-order>
+               <name>Description</name>
+               <data-storage-type>Character</data-storage-type>
+               <max-length>45</max-length>
+               <is-required>Yes</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Description Of The Treatment</description>
+            </data-attribute>
+         </data-attributes>
+      </entity>
+      <entity>
+         <catalog-item-id>35495</catalog-item-id>
+         <title>type_codes.csv</title>
+         <metadata-workflow-state ccs-id="9">Published / External</metadata-workflow-state>
+         <status>Complete</status>
+         <abstract>Lists origin for colonies under surveillance  and their descriptions</abstract>
+         <entity-information>
+            <active-version>Yes</active-version>
+            <description>Lists origin for colonies under surveillance  and their descriptions</description>
+         </entity-information>
+         <data-attributes>
+            <data-attribute>
+               <cc-id>355810</cc-id>
+               <seq-order>5</seq-order>
+               <name>type_codes.csv</name>
+               <data-storage-type>Character</data-storage-type>
+               <max-length>10</max-length>
+               <is-required>Yes</is-required>
+               <is-pkey>Yes</is-pkey>
+               <status>Active</status>
+               <description>Type of Surveyed Coral Colony</description>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355809</cc-id>
+               <seq-order>10</seq-order>
+               <name>Description</name>
+               <data-storage-type>Character</data-storage-type>
+               <max-length>45</max-length>
+               <is-required>Yes</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Description Of The Treatment</description>
+            </data-attribute>
+         </data-attributes>
+      </entity>
+      <entity>
+         <catalog-item-id>35496</catalog-item-id>
+         <title>mitigation_experiments.csv</title>
+         <metadata-workflow-state ccs-id="9">Published / External</metadata-workflow-state>
+         <status>Complete</status>
+         <abstract> Indicates the observed fate (i.e., continued tissue loss or arrest of tissue loss observed after ~ 4 weeks) of diseased coral branches which were treated in three ways</abstract>
+         <entity-information>
+            <active-version>Yes</active-version>
+            <description>Indicates the observed fate (i.e., continued tissue loss or arrest of tissue loss observed after ~ 4 weeks) of diseased coral branches which were treated in three ways</description>
+         </entity-information>
+         <data-attributes>
+            <data-attribute>
+               <cc-id>355815</cc-id>
+               <name>Date_Implemented</name>
+               <data-storage-type>Date</data-storage-type>
+               <max-length>10</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Date experimental treatment was applied to that replicate
+</description>
+               <format-mask>mm/dd/yyyy</format-mask>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355812</cc-id>
+               <name>Replicate</name>
+               <data-storage-type>Character</data-storage-type>
+               <max-length>8</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Replicate colony and/or branch (designated by a tag placed on the colony)
+</description>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355814</cc-id>
+               <name>Treatment_Description</name>
+               <data-storage-type>Character</data-storage-type>
+               <max-length>100</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Longer Textual Description of Treatment Code
+</description>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355816</cc-id>
+               <name>Tissue_Loss_Progression</name>
+               <data-storage-type>Character</data-storage-type>
+               <max-length/>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Was tissue loss progressing at the ending observation (~ 4 weeks duration)(0=no continued tissue loss, 1 indicates &gt;0% tissue loss since treatment implementation
+</description>
+               <validation-rules>Must be 0 or 1</validation-rules>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355813</cc-id>
+               <name>Treatment</name>
+               <data-storage-type>Character</data-storage-type>
+               <max-length/>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Experimental Treatment
+</description>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355811</cc-id>
+               <name>Site</name>
+               <data-storage-type>Character</data-storage-type>
+               <max-length>19</max-length>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Reef site where experimetal colony occurred
+
+
+
+</description>
+            </data-attribute>
+         </data-attributes>
+      </entity>
+      <entity>
+         <catalog-item-id>35497</catalog-item-id>
+         <title>Partial_mortality.csv</title>
+         <metadata-workflow-state ccs-id="9">Published / External</metadata-workflow-state>
+         <status>Complete</status>
+         <abstract>contains sequential observations of colony partial mortality of a set of individual colonies that were tagged in 2012 </abstract>
+         <entity-information>
+            <active-version>Yes</active-version>
+            <description>contains sequential observations of colony partial mortality of a set of individual colonies that were tagged in 2012</description>
+         </entity-information>
+         <data-attributes>
+            <data-attribute>
+               <cc-id>355822</cc-id>
+               <name>Colony</name>
+               <data-storage-type>Character</data-storage-type>
+               <max-length>5</max-length>
+               <is-required>Yes</is-required>
+               <is-pkey>Yes</is-pkey>
+               <status>Active</status>
+               <description>Colony tag number</description>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355823</cc-id>
+               <name>Prop_dead_S1</name>
+               <data-storage-type>Numeric</data-storage-type>
+               <max-length/>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>5</precision>
+               <scale>2</scale>
+               <status>Active</status>
+               <description>Proportion of colony surface dead at first survey, 15 May 2012</description>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355824</cc-id>
+               <name>Prop_dead_S2</name>
+               <data-storage-type>Numeric</data-storage-type>
+               <max-length/>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>5</precision>
+               <scale>2</scale>
+               <status>Active</status>
+               <description>Proportion of colony surface dead at second survey, 2 June 2012</description>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355825</cc-id>
+               <name>Prop_dead_S3</name>
+               <data-storage-type>Numeric</data-storage-type>
+               <max-length/>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>5</precision>
+               <scale>2</scale>
+               <status>Active</status>
+               <description>Proportion of colony surface dead at third survey, 30 June 2012</description>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355821</cc-id>
+               <name>Type_description</name>
+               <data-storage-type>Character</data-storage-type>
+               <max-length>80</max-length>
+               <is-required>Yes</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Longer Description of the origin of the colony</description>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355827</cc-id>
+               <name>Prop_dead_S5</name>
+               <data-storage-type>Numeric</data-storage-type>
+               <max-length/>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>5</precision>
+               <scale>2</scale>
+               <status>Active</status>
+               <description>Proportion of colony surface dead at fifth survey, 15 Aug 2012</description>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355828</cc-id>
+               <name>Prop_dead_S6</name>
+               <data-storage-type>Numeric</data-storage-type>
+               <max-length/>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>5</precision>
+               <scale>2</scale>
+               <status>Active</status>
+               <description>Proportion of colony surface dead at sixth survey, 10 Sept 2012</description>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355820</cc-id>
+               <name>Type</name>
+               <data-storage-type>Character</data-storage-type>
+               <max-length>8</max-length>
+               <is-required>Yes</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Origin of colony</description>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355826</cc-id>
+               <name>Prop_dead_S4</name>
+               <data-storage-type>Numeric</data-storage-type>
+               <max-length/>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <precision>5</precision>
+               <scale>2</scale>
+               <status>Active</status>
+               <description>Proportion of colony surface dead at fourth survey, 23 July 2012</description>
+            </data-attribute>
+         </data-attributes>
+      </entity>
+      <entity>
+         <catalog-item-id>35517</catalog-item-id>
+         <title>colony_condition.csv</title>
+         <metadata-workflow-state ccs-id="9">Published / External</metadata-workflow-state>
+         <status>Complete</status>
+         <abstract>Contains surveillance data documenting how many surveyed colonies at each site were observed with active disease or predation over time.</abstract>
+         <data-attributes>
+            <data-attribute>
+               <cc-id>355992</cc-id>
+               <name>Disease	</name>
+               <data-storage-type>Numeric</data-storage-type>
+               <max-length/>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Number of colonies tallied with active disease
+	 
+
+
+</description>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355987</cc-id>
+               <name>End_Survey_Date</name>
+               <data-storage-type>Date</data-storage-type>
+               <max-length/>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Date the survey Ended</description>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355993</cc-id>
+               <name>Herm</name>
+               <data-storage-type>Numeric</data-storage-type>
+               <max-length/>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Number of colonies tallied with recent predation scars by fireworms,Hermodice carunculata</description>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355989</cc-id>
+               <name>Site</name>
+               <data-storage-type>Character</data-storage-type>
+               <max-length/>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Reef Site Name</description>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355991</cc-id>
+               <name>Type_description</name>
+               <data-storage-type>Character</data-storage-type>
+               <max-length/>
+               <is-required>Yes</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Longer description corresponding to the type code. </description>
+               <derivation>Corresponds to the field type_description in type_codes,csv when the type_codes match</derivation>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355986</cc-id>
+               <name>Start_Survey_Date	</name>
+               <data-storage-type>Date</data-storage-type>
+               <max-length/>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Date the survey was started, 
+</description>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355995</cc-id>
+               <name>Total	</name>
+               <data-storage-type>Numeric</data-storage-type>
+               <max-length/>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Total number of colonies tallied at the site</description>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355990</cc-id>
+               <name>Type_code</name>
+               <data-storage-type>Character</data-storage-type>
+               <max-length>10</max-length>
+               <is-required>Yes</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Mnemonic code which indicates whether the Acroproa cervicornis colonies at the site were restored/outplanted, wild, or under nursery culture</description>
+               <validation-rules>Much match field type_code in type_codes.csv</validation-rules>
+            </data-attribute>
+            <data-attribute>
+               <cc-id>355994</cc-id>
+               <name>Snails	</name>
+               <data-storage-type>Numeric</data-storage-type>
+               <max-length/>
+               <is-required>No</is-required>
+               <is-pkey>No</is-pkey>
+               <status>Active</status>
+               <description>Number of colonies tallied with corallivorous snails, Coralliophila abbreviata, present on the colony</description>
+            </data-attribute>
+         </data-attributes>
+      </entity>
+   </entity-attribute-information>
+   <support-roles>
+      <support-role>
+         <cc-id>277365</cc-id>
+         <support-role-type>Data Steward</support-role-type>
+         <from-date>2011</from-date>
+         <person>Miller, Margaret W</person>
+         <person-email>margaret.w.miller@noaa.gov</person-email>
+         <person-address-type>Mailing</person-address-type>
+         <person-address>75 Virginia Beach Drive</person-address>
+         <person-address-building>1</person-address-building>
+         <person-address-city>Miami</person-address-city>
+         <person-address-state>FL</person-address-state>
+         <person-phone-number>305-361-4561</person-phone-number>
+         <organization>Southeast Fisheries Science Center</organization>
+         <organization-address>75 Virginia Beach Drive</organization-address>
+         <organization-address-city>Miami</organization-address-city>
+         <organization-address-zip>33149</organization-address-zip>
+         <organization-address-country>USA</organization-address-country>
+         <organization-phone-number>(305)361-5761</organization-phone-number>
+         <organization-url>www.sefsc.noaa.gov</organization-url>
+         <organization-business-hours>8:00 a.m. - 4:30 p.m. EST</organization-business-hours>
+         <contact-instructions>Contact by email preferred.</contact-instructions>
+      </support-role>
+      <support-role>
+         <cc-id>279909</cc-id>
+         <support-role-type>Distributor</support-role-type>
+         <from-date>2011</from-date>
+         <person/>
+         <person-email/>
+         <organization>Southeast Fisheries Science Center</organization>
+         <organization-address>75 Virginia Beach Drive</organization-address>
+         <organization-address-city>Miami</organization-address-city>
+         <organization-address-zip>33149</organization-address-zip>
+         <organization-address-country>USA</organization-address-country>
+         <organization-phone-number>(305)361-5761</organization-phone-number>
+         <organization-url>www.sefsc.noaa.gov</organization-url>
+         <organization-business-hours>8:00 a.m. - 4:30 p.m. EST</organization-business-hours>
+         <contact-instructions>Contact by email preferred.</contact-instructions>
+      </support-role>
+      <support-role>
+         <cc-id>279910</cc-id>
+         <support-role-type>Metadata Contact</support-role-type>
+         <from-date>2011</from-date>
+         <person>Miller, Margaret W</person>
+         <person-email>margaret.w.miller@noaa.gov</person-email>
+         <person-address-type>Mailing</person-address-type>
+         <person-address>75 Virginia Beach Drive</person-address>
+         <person-address-building>1</person-address-building>
+         <person-address-city>Miami</person-address-city>
+         <person-address-state>FL</person-address-state>
+         <person-phone-number>305-361-4561</person-phone-number>
+      </support-role>
+      <support-role>
+         <cc-id>279911</cc-id>
+         <support-role-type>Point of Contact</support-role-type>
+         <from-date>2011</from-date>
+         <person>Miller, Margaret W</person>
+         <person-email>margaret.w.miller@noaa.gov</person-email>
+         <person-address-type>Mailing</person-address-type>
+         <person-address>75 Virginia Beach Drive</person-address>
+         <person-address-building>1</person-address-building>
+         <person-address-city>Miami</person-address-city>
+         <person-address-state>FL</person-address-state>
+         <person-phone-number>305-361-4561</person-phone-number>
+      </support-role>
+   </support-roles>
+   <extents>
+      <currentness-reference>Ground condition</currentness-reference>
+      <extent>
+         <cc-id>279912</cc-id>
+         <description/>
+         <geographic-areas>
+            <geographic-area>
+               <cc-id>279914</cc-id>
+               <west-bound>-80.47016666667</west-bound>
+               <east-bound>-80.29733333333</east-bound>
+               <north-bound>25.12416666667</north-bound>
+               <south-bound>24.94633333333</south-bound>
+               <description>Reef sites in the upper Keys ranging from Conch reef to Key Largo Dry Rocks; specifically
+
+Reef Names
+
+Molasses
+
+Aquarius
+
+Conch Shallow
+
+KL Dry Rocks
+
+Tav Patch A
+
+Tav Patch B
+
+Little Conch
+
+CRF Nursery</description>
+            </geographic-area>
+         </geographic-areas>
+         <vertical-extents/>
+         <time-frames>
+            <time-frame>
+               <cc-id>279913</cc-id>
+               <time-frame-type>Range</time-frame-type>
+               <start-date-time>2011</start-date-time>
+               <end-date-time>2013</end-date-time>
+               <alternate-start-as-of-info/>
+               <alternate-end-as-of-info/>
+               <description/>
+            </time-frame>
+         </time-frames>
+      </extent>
+   </extents>
+   <access-information>
+      <security-class>Unclassified</security-class>
+      <data-access-policy>Open to everyone</data-access-policy>
+      <data-access-procedure>When data has been added to zip file on PARR bulk download directory it may be download from there.
+
+Until then,  contact Margaret Miller to request access  </data-access-procedure>
+      <data-access-constraints>None</data-access-constraints>
+   </access-information>
+   <urls>
+      <url>
+         <cc-id>248756</cc-id>
+         <url>http://www.int-res.com/abstracts/meps/v516/p187-194/</url>
+         <url-type>Online Resource</url-type>
+         <description>Peer-reviewed publication</description>
+      </url>
+      <url>
+         <cc-id>248755</cc-id>
+         <url>https://peerj.com/articles/541/</url>
+         <url-type>Online Resource</url-type>
+         <file-resource-format>.pdf</file-resource-format>
+         <description>Peer-reviewed publication</description>
+      </url>
+   </urls>
+   <data-quality>
+      <quality-control-procedures>Field observations were backed up with photographs for verification.  Disease conditions were validated with histopathological examination as described in publication:MW Miller, KE Lohr, CM Cameron, DE Williams, EC Peters. Disease dynamics and potential mitigation among restored and wild staghorn coral, Acropora cervicornis. PeerJ 2:e541</quality-control-procedures>
+   </data-quality>
+   <data-management>
+      <resources-identified>No</resources-identified>
+      <resources-budget-percentage>0</resources-budget-percentage>
+      <data-access-directive-compliant>No</data-access-directive-compliant>
+      <data-access-directive-waiver>No</data-access-directive-waiver>
+      <hosting-service-needed>No</hosting-service-needed>
+      <delay-collection-dissemination>365</delay-collection-dissemination>
+      <delay-collection-dissemination-explanation>N/A</delay-collection-dissemination-explanation>
+      <archive-location>To Be Determined</archive-location>
+      <archive-location-explanation-none>The archival process is currently under development.</archive-location-explanation-none>
+      <delay-collection-archive>365</delay-collection-archive>
+      <data-protection-plan>The data resides on a secure government network requiring multi-factor authentication for network access.</data-protection-plan>
+   </data-management>
+   <lineage>
+      <lineage-statement>Data recorded in situ by divers on paper forms.  Photographs also recorded of each colony for backup/QA/QC.  Observers entered data from paper forms to spreadsheets.  In some cases, time series photographs were analyzed to evaluate healing of lesions on colonies.</lineage-statement>
+      <lineage-process-steps>
+         <lineage-process-step>
+            <cc-id>283049</cc-id>
+            <sequence-number>1</sequence-number>
+            <description>Data were entered from field data sheets into spreadsheets.</description>
+            <process-contact-type>Non-InPort Person/Organization</process-contact-type>
+            <process-contact/>
+         </lineage-process-step>
+      </lineage-process-steps>
+   </lineage>
+   <downloads>
+      <download>
+         <cc-id>283050</cc-id>
+         <download-url>http://www.sefsc.noaa.gov/parr/bulk_downloads/22438.zip</download-url>
+         <file-name>22438.zip</file-name>
+         <description>Peer reviewed publication</description>
+         <file-type>zip</file-type>
+         <fgdc-content-type>Downloadable Data</fgdc-content-type>
+         <compression>Zip</compression>
+         <review-status>Not Chked</review-status>
+      </download>
+   </downloads>
+   <child-items>
+      <child-item>
+         <catalog-item-id>26526</catalog-item-id>
+         <catalog-item-type>Document</catalog-item-type>
+         <title>Disease dynamics and potential mitigation among restored and wild staghorn coral, Acropora cervicornis</title>
+      </child-item>
+      <child-item>
+         <catalog-item-id>26529</catalog-item-id>
+         <catalog-item-type>Document</catalog-item-type>
+         <title>Prevalence, consequences, and mitigation of fireworm predation on endangered staghorn coral</title>
+      </child-item>
+      <child-item>
+         <catalog-item-id>35497</catalog-item-id>
+         <catalog-item-type>Entity</catalog-item-type>
+         <title>Partial_mortality.csv</title>
+      </child-item>
+      <child-item>
+         <catalog-item-id>35517</catalog-item-id>
+         <catalog-item-type>Entity</catalog-item-type>
+         <title>colony_condition.csv</title>
+      </child-item>
+      <child-item>
+         <catalog-item-id>35496</catalog-item-id>
+         <catalog-item-type>Entity</catalog-item-type>
+         <title>mitigation_experiments.csv</title>
+      </child-item>
+      <child-item>
+         <catalog-item-id>35494</catalog-item-id>
+         <catalog-item-type>Entity</catalog-item-type>
+         <title>treatment_codes.csv</title>
+      </child-item>
+      <child-item>
+         <catalog-item-id>35495</catalog-item-id>
+         <catalog-item-type>Entity</catalog-item-type>
+         <title>type_codes.csv</title>
+      </child-item>
+   </child-items>
+   <catalog-details>
+      <metadata-record-created-by pers-id="1279">Lee Weinberger</metadata-record-created-by>
+      <metadata-record-created>20141031T101506</metadata-record-created>
+      <metadata-record-last-modified-by pers-id="1279">Lee Weinberger</metadata-record-last-modified-by>
+      <metadata-record-last-modified>20161128T105729</metadata-record-last-modified>
+      <record-published>20161128</record-published>
+      <owner-organization>Southeast Fisheries Science Center</owner-organization>
+      <owner-organization-acronym>SEFSC</owner-organization-acronym>
+      <publication-status>Public</publication-status>
+      <is-do-not-publish>No</is-do-not-publish>
+      <metadata-next-review-date>20171129</metadata-next-review-date>
+      <linking-share-level>Project</linking-share-level>
+   </catalog-details>
+</inport-metadata>

@@ -1,0 +1,7 @@
+Column_Name,Description
+Site,Reef site where experimetal colony occurred
+Replicate,Replicate colony and/or branch (designated by a tag placed on the colony)
+Treatment,Experimental Treatment
+Treatment_Description,Longer Textual Description of Treatment Code
+Date_Implemented,Date experimental treatment was applied to that replicate
+Tissue_Loss_Progression,"Was tissue loss progressing at the ending observation (~ 4 weeks duration)(0=no continued tissue loss, 1 indicates >0% tissue loss since treatment implementation"

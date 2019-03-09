@@ -1,0 +1,24 @@
+---------- Forwarded message ----------
+From: David Huddleston - NOAA Affiliate <david.huddleston@noaa.gov>
+Date: Thu, Jan 26, 2017 at 11:13 AM
+Subject: Re: S2N Package 9TPP22 - NCEI Accession 0159175
+
+
+
+Removing the article is fine.  Here is the XML.  I must have forgot to include it.
+
+On Thu, Jan 26, 2017 at 7:52 AM, Sarah Oconnor - NOAA Affiliate <sarah.oconnor@noaa.gov> wrote:
+Hi David,
+
+I wanted to let you know that I am going to need to remove the following file from the archive package m516p187.pdf.
+
+This item is a copyrighted journal article. Under our current guidance, we are not allowed to distribute copyrighted materials in the archive package unless we have the written permission of the copyright holder to distribute the item. The only exception to needing written permission is if the item is distributed under a Creative Commons Public Domain license. The other journal article included in the package is published under a create commons license so I will be able to keep this item in the archive package.
+
+While I am removing the pdf file, a full citation to the document will be included in the archive package and the accompanying metadata that is available through our search tools.
+
+
+On a separate note, previous packages have included an XML copy of the associated InPort record. The metadata file was missing from this submission package. If it is something that you would like to see included please email me a copy.
+
+Please let me know if you have any questions.
+
+Sarah
