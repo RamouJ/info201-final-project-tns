@@ -1,0 +1,10 @@
+Column_Name,Description
+Start_Survey_Date,"Date the survey was started,"
+End_Survey_Date,Date the survey Ended
+Site,Reef Site Name
+Type_code,"Mnemonic code which indicates whether the Acroproa cervicornis colonies at the site were restored/outplanted, wild, or under nursery culture"
+Type_description,Longer description corresponding to the type code.
+Disease,Number of colonies tallied with active disease
+Herm,"Number of colonies tallied with recent predation scars by fireworms,Hermodice carunculata"
+Snails,"Number of colonies tallied with corallivorous snails, Coralliophila abbreviata, present on the colony"
+Total,Total number of colonies tallied at the site
