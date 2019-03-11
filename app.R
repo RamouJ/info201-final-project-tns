@@ -2,9 +2,10 @@ library("shiny")
 library("ggplot2")
 library("dplyr")
 library("tidyr")
+library("plotly")
 
 source("question3.R")
-
+source("question1.R")
 ui <- navbarPage(
       "Caribbean Coral Reef Analysis: White Band Disease",
                   tabPanel("Introduction" 
@@ -15,7 +16,27 @@ ui <- navbarPage(
                            
                            
                            ),
-                  tabPanel("Question 1"
+                  tabPanel("Question 1",
+                           titlePanel("Potential Cofounders of Diseases"),
+                           sidebarLayout(
+                             sidebarPanel(
+                               
+                               selectInput(inputId = "site", label = "Site of Observation", choices = summary_data$Site, selected = "Wild_Site_A"),
+                               br(),
+                               radioButtonsinputId = "diseases", label = "Disease Compilation",
+                               choices = list("General_Disease" = 1, "Worm Bites" = 2, "Snail Colonies" = 3), 
+                               selected = 1),
+                             
+                             mainPanel(
+                               tabsetPanel(type = "tabs",
+                                           tabPanel("Plot", plotlyOutput("plot_q1"),
+                                                    p(" ")),
+                                           
+                                           tabPanel("Table", DT::dataTableOutput("table_q1"), 
+                                                    p(" "))
+                               )
+                             )
+                           )
         
                            
                            
@@ -25,7 +46,7 @@ ui <- navbarPage(
                            
                            ),
                   tabPanel("Question 2"
-                           
+                             
                            
                            
                            
@@ -66,8 +87,25 @@ ui <- navbarPage(
                            )
 )
 
-server <- server <- function(input, output) {
+server <- function(input, output) {
 
+  output$plot_q1 <- renderPlotly({
+    filtered_data <- summary_data %>%
+      filter(Diseases == input$diseases)%>%
+      filter(Site == input$site)
+    
+    p <- ggplot(data = filtered_data)+
+      geom_col(mapping = aes_string(x = "diseases", y = "Amount_Diseased", fill = "Site"))
+    ggplotly(p)
+  })
+  
+  output$table_q1 <- DT::renderDataTable(
+    filtered_coral <- year_forest_perc %>%
+      filter(Diseases == input$diseases)%>%
+      filter(Site == input$site),
+    options = list(lengthChange = FALSE)
+  )
+  
   output$plot <- renderPlot({
     filtered_table <- filtered_df <- summary_data %>%
       filter(Site == input$feature) %>%
@@ -103,7 +141,8 @@ server <- server <- function(input, output) {
           filtered_table$Site[6], ". On average, ", filtered_table$Site[7],
           "% of the total population at the site was diseased.")
   })
-
+  
+  
   
 }
 
