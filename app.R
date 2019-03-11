@@ -5,7 +5,7 @@ library("tidyr")
 
 ui <- navbarPage(
       "Caribbean Coral Reef Analysis: White Band Disease",
-                  tabPanel("Introduction", 
+                  tabPanel("Introduction" 
                            
                            
                            
@@ -21,7 +21,7 @@ ui <- navbarPage(
                            
                            
                            ),
-                  tabPanel("Question 2",
+                  tabPanel("Question 2"
                            
                            
                            
@@ -29,7 +29,7 @@ ui <- navbarPage(
                            
                            
                            ),
-                  tabPanel("Question 3", 
+                  tabPanel("Question 3"
                            
                            
                            
@@ -39,7 +39,7 @@ ui <- navbarPage(
                            
                            
                            ),
-                  tabPanel("Question 4", 
+                  tabPanel("Question 4"
                            
                            
                            
@@ -47,6 +47,7 @@ ui <- navbarPage(
                            
                            
                            )
+)
 
 server <- server <- function(input, output) {
   
