@@ -1,0 +1,12 @@
+Site,General_Disease,Herm,Snails,Total,Max_Disease,Lowest_Disease,Percent_Disease
+Molasses_Shallow,65,59,12,387,General_Disease,Snails,35
+Aquarius,41,22,65,253,Snails,Herm,51
+Conch_Shallow,13,9,18,327,Snails,Herm,12
+French_A,38,17,5,337,General_Disease,Snails,18
+French_B,8,7,3,132,General_Disease,Snails,14
+Key_Largo_Dry_Rocks,2,40,15,286,Herm,General_Disease,20
+Wild_Site_A,5,5,1,323,General_Disease/Herm,Snails,3
+Wild_Site_B,7,19,1,217,Herm,Snails,12
+Wild_Site_C,8,13,3,181,Herm,Snails,13
+Pickles,65,59,12,387,General_Disease,Snails,35
+Nursery,9,0,0,1452,General_Disease,Herm/Snails,0.006
