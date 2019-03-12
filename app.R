@@ -9,7 +9,7 @@ source("analysis2.R")
 source("question3.R")
 
 
-ui <- navbarPage(
+my_ui <- navbarPage(
       "Caribbean Coral Reef Analysis: White Band Disease",
                   tabPanel("Introduction" 
                            
@@ -30,18 +30,18 @@ ui <- navbarPage(
                            ),
                   tabPanel("Question 2",
                        titlePanel("Best possible treatment"),
-                       sidebarPanel(
-                         sidebarLayout(
-                          radioButtons(
-                            inputId = "type", 
-                            label = "Treatment type:",
-                            c("Control" = "Control",
-                              "Epoxy" = "Epoxy",
-                              "Excision" = "Excision"
-                            )
-                          )
-                        )
-                      )
+                       selectInput(
+                         "treatment",
+                         label = "Type of treatment",
+                         choices = choices_treatment,
+                         selected = "Control"
+                       ),
+                       plotOutput("plot_treatment"),
+                       br(),
+                       p("These bar graphs represent the number of coral colonies' tissue loss or gain depending on the type of
+                         treatment using binary, with 0 representing no tissue loss and 1 representing above 0 % tissue
+                         loss in the colony. Overall, epoxy group had the lowest no loss to loss ratio of 19:23, giving 
+                         a validation that epoxy band might be the best treatment for the dying coral colony.")
                     ),
                   tabPanel("Question 3", 
                            titlePanel("Question: What are the disease patterns
@@ -77,7 +77,7 @@ ui <- navbarPage(
                            )
 )
 
-server <- server <- function(input, output) {
+server <- function(input, output) {
 
   output$plot <- renderPlot({
     filtered_table <- filtered_df <- summary_data %>%
@@ -115,8 +115,35 @@ server <- server <- function(input, output) {
           "% of the total population at the site was diseased.")
   })
 
-  
+  output$plot_treatment <- renderPlot({
+    if(input$treatment == "Control"){
+    control_plot <- ggplot(data = count_control) +
+      geom_col(mapping = aes_string(x = "Var1", y = "Freq"), fill = "darkblue") +
+      labs(
+        x = "Control group's tissue loss in binary with ratio of 13:25",
+        y = "Number of colonies"
+      )
+    type_control <- control_plot
+    }else if(input$treatment == "Epoxy"){
+    epoxy_plot <- ggplot(data = epoxy_grouped_control) +
+      geom_col(mapping = aes_string(x = "Var1", y = "Freq"), fill = "darkred") +
+      labs(
+        x = "Epoxy group's tissue loss in binary with ratio of 19:23",
+        y = "Number of colonies"
+      )
+    type_control <- epoxy_plot
+    }else if(input$treatment == "Excision"){
+    excision_plot <- ggplot(data = excision_grouped_control) +
+      geom_col(mapping = aes_string(x = "Var1", y = "Freq"), fill = "darkgreen") +
+      labs(
+        x = "Excision group's tissue loss in binary with ratio of 12:15",
+        y = "Number of colonies"
+      )
+    type_control <- excision_plot
+    }
+    type_control
+  }) 
 }
 
-shinyApp(ui = ui, server = server)
+shinyApp(ui = my_ui, server = server)
 
