@@ -28,7 +28,13 @@ ui <- navbarPage(
                              mainPanel(
                                tabsetPanel(type = "tabs",
                                            tabPanel("Plot", plotlyOutput("plot_q1"),
-                                                    p(" ")),
+                                                    p("There does not seem to be a correlation in the disease developing in the nursery site, 
+                                                      given that no snails or herm were present and the disease developed. 
+                                                      However, in cases involving a high mean herm the disease is generally prevalent and the mean number of snails goes down. 
+                                                      In looking at the combined dataset, the top three sites with the highest mean herm had the highest mean tissue loss, 
+                                                      showing that herm could have an impact on the disease's ablility to deteriate the coral's tissue.")),
+                                           
+                                           
                                            tabPanel("Table", DT::dataTableOutput("table_q1"), 
                                                     p(" "))
                                           )
@@ -93,7 +99,7 @@ server <- function(input, output) {
       filter(Site == input$site)
     
     p <- ggplot(data = filtered_data)+
-      geom_col(mapping = aes_string(x = "Diseases", y = "Amount_Diseased", fill = "Site"))
+      geom_col(mapping = aes_string(x = "Diseases", y = "Amount_Diseased", fill = "Diseases"))
     ggplotly(p)
   })
   
