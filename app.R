@@ -74,7 +74,10 @@ ui <- navbarPage(
                                                       In looking at the combined dataset, the top three sites with the highest mean herm had the highest mean tissue loss, 
                                                       showing that herm could have an impact on the disease's ablility to deteriate the coral's tissue.")
                                                     ),
-                                           
+                                           tabPanel("Interactive Map", leafletOutput("plot_percentage_q1"),
+                                                    br(),
+                                
+                                                    p("Here are the location of each observation site shown on the map")),
 
                                            tabPanel("Table", DT::dataTableOutput("table_q1"), 
                                                     br(),
@@ -84,11 +87,9 @@ ui <- navbarPage(
                                                       In looking at the combined dataset, the top three sites with the highest mean herm had the highest mean tissue loss, 
                                                       showing that herm could have an impact on the disease's ablility to deteriate the coral's tissue."))
                                           )
-                             
-                           
-                        )
-                  )
-                ),
+                                        )
+                                      )
+                                    ),
       
                   tabPanel("Question 2",
                       h2(
@@ -261,9 +262,29 @@ server <- function(input, output) {
     data <- treatment_data
     
     data
-    
   })
+  output$map <- renderLeaflet({
+  map_data <- read.csv("lonlat.csv")
+  # Create a color palette with handmade bins.
+  mybins=seq(4, 6.5, by=0.5)
+  mypalette = colorBin(palette="YlOrBr", domain=map_data$Location, na.color="transparent", bins=mybins)
   
+  # Prepar the text for the tooltip:
+  mytext=paste("Type: ", map_data$Type, "<br/>", "Depth: ", map_data$Depth, "<br/>", "Name: ", map_data$Location, sep="") %>%
+    lapply(htmltools::HTML)
+  
+  # Final Map
+  leaflet(map_data) %>% 
+    addTiles()  %>% 
+    setView( lat=25, lng=-80.2 , zoom=10) %>%
+    addProviderTiles("Esri.WorldImagery") %>%
+    addCircleMarkers(~Longitude, ~Latitude, 
+                     fillColor = ~mypalette(Depth), fillOpacity = 0.8, color="white", radius=7, stroke=FALSE,
+                     label = mytext,
+                     labelOptions = labelOptions( style = list("font-weight" = "normal", padding = "3px 8px"), textsize = "13px", direction = "auto")
+    ) %>%
+    addLegend( pal=mypalette, values=~Depth, opacity=0.9, title = "Depth", position = "bottomright" )
+  })
 }
 
 shinyApp(ui = ui, server = server)
