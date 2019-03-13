@@ -72,15 +72,7 @@ ui <- navbarPage(
                            
                         )
                   ),
-        
-                           
-                           
-                           
-                           
-                           
-                           
-<<<<<<< HEAD
-                           ),
+      
                   tabPanel("Question 2",
                       h2(
                         "What's the best possible treatment for the colony that has caught a disease?",
@@ -100,9 +92,10 @@ ui <- navbarPage(
                          a validation that epoxy band might be the best treatment for the dying coral colony."),
                        p("1. Control: Control group gets no special treatments."),
                        p("2. Epoxy: Epoxy involves placement of a band of epoxy fully enclosing the diseased margin."),
-                       p("3. Excison: Excision involves forcibly removing a diseased branch from the healthy ones.")),
+                       p("3. Excison: Excision involves forcibly removing a diseased branch from the healthy ones.")
+                      ),
       
-=======
+
                   tabPanel("Question 2"
                              
                            
@@ -111,7 +104,7 @@ ui <- navbarPage(
                            
                            
                            ),
->>>>>>> QUESTION1
+
                   tabPanel("Question 3", 
                            h2(
                              "What are the disease patterns in each colony?",
