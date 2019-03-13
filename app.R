@@ -4,21 +4,19 @@ library("dplyr")
 library("tidyr")
 library("plotly")
 library("jpeg")
-
 source("question1.R")
 source("analysis2.R")
 source("question3.R")
 source("Question4.R")
 library("tidyverse")
-
 ui <- navbarPage(
       "Caribbean Coral Reef Analysis: Mitigating White Band Disease",
                   tabPanel("Introduction", 
                           h2("Disease Dynamics and Potential
                           Mitigation Among Restored and Wild Caribbean Staghorn Coral", align = "center"),
                           p("Our dataset is from NOAA (National Oceanic and Atmospheric Administration) and is 
-                            an experiment looking into the disease dynamics and potential mitigation among 
-                            restored and wild staghorn coral. Caribbean staghorn coral has been given protected status. 
+                            an experiment looking into the spread of white band disease on coral that is both wild and in a nursery setting. 
+                            Caribbean staghorn coral has been given protected status. 
                             Nearly 97% of the coral was wiped out since the 1980s from white band disease, a disease 
                             that destroys the coral's tissue. The dataset focuses on an experiment to attempt to cure 
                             the coral of the disease with different control groups. This data is important given that 
@@ -26,8 +24,12 @@ ui <- navbarPage(
                             as many of the coral have built the reefs to sustain the ecosystem. It provides important habitat 
                             for the reef animals, especially the fish. The current population of coral now only lies in a few 
                             isolated colonies comapred to the forests of the coral that used to dominant the reefs. Successful
-                            reproduction is difficult so it is vital to find a way to combat the disease and environmental factors that kill the coral. "),
-                          imageOutput("img"),
+                            reproduction is difficult so it is vital to find a way to combat the disease and environmental factors that kill the coral. The first data set 
+                            called Colony Condition takes data from different coral colonies and counts the number of colonies that show signs of disease,
+                            snails, and herm (which are scars left by predational worms). The other data set, Mitigation Experiments, focuses on
+                            the 3 different treatments for the coral, being the control group, excision, and epoxy band (These terms are described in the data). The
+                            data set keeps track of which coral colonies showed signs of tissue loss progression due to the disease, showing the effectiveness of the 
+                            different treatments. "),
                           p("The questions we will be highlighting in our app are: "),
                           tags$ol(
                             tags$li("Could there be any confounders that are causing coral reefs to deteriorate?  "), 
@@ -61,7 +63,7 @@ ui <- navbarPage(
 
                                            
                                            
-                                           tabPanel("Table", DT::dataTableOutput("table_q1"), 
+                                           tabPanel("Table", dataTableOutput("table_q1"), 
                                                     p("There does not seem to be a correlation in the disease developing in the nursery site, 
                                                       given that no snails or herm were present and the disease developed. 
                                                       However, in cases involving a high mean herm the disease is generally prevalent and the mean number of snails goes down. 
@@ -95,15 +97,6 @@ ui <- navbarPage(
                        p("3. Excison: Excision involves forcibly removing a diseased branch from the healthy ones.")
                       ),
       
-
-                  tabPanel("Question 2"
-                             
-                           
-                           
-                           
-                           
-                           
-                           ),
 
                   tabPanel("Question 3", 
                            h2(
@@ -154,10 +147,6 @@ ui <- navbarPage(
                            )
 )
 
-<<<<<<< HEAD
-server <- function(input, output) {
-=======
->>>>>>> QUESTION1
 
 server <- function(input, output) {
   output$plot_q1_circular <- renderPlot({
@@ -191,7 +180,7 @@ server <- function(input, output) {
       geom_col(mapping = aes_string(x = "Diseases", y = "Percentage", fill = "Diseases"))
     ggplotly(p)
   })
-  output$table_q1 <- DT::renderDataTable(
+  output$table_q1 <- renderDataTable(
     filtered_data <- summary_data %>%
       filter(Site == input$site),
     options = list(lengthChange = FALSE)
@@ -232,7 +221,7 @@ server <- function(input, output) {
           filtered_table$Site[6], ". On average, ", filtered_table$Site[7],
           "% of the total population at the site was diseased.")
   })
-<<<<<<< HEAD
+
 
   output$plot_treatment <- renderPlot({
     if(input$treatment == "Control"){
@@ -265,10 +254,6 @@ server <- function(input, output) {
     
     
   }) 
-=======
-  
-  
->>>>>>> QUESTION1
   
   output$Question4Table1 <- renderTable({
     data <- treatment_data
@@ -277,12 +262,6 @@ server <- function(input, output) {
     
   })
   
-  output$img <- renderImage({
-    imageFile <- "./www/map.jpeg"
-    
-    imageFile
-    
-  }, deleteFile = FALSE)
 }
 
 shinyApp(ui = ui, server = server)
