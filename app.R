@@ -57,10 +57,6 @@ ui <- navbarPage(
                                            tabPanel("PercentagePlot", plotlyOutput("plot_percentage_q1"),
                                                     p("")
                                                     ),
-                                           tabPanel("Circular Plot", plotOutput("plot_q1_circular")),
-
-                                           
-                                           
                                            tabPanel("Table", DT::dataTableOutput("table_q1"), 
                                                     p("There does not seem to be a correlation in the disease developing in the nursery site, 
                                                       given that no snails or herm were present and the disease developed. 
@@ -94,16 +90,6 @@ ui <- navbarPage(
                        p("2. Epoxy: Epoxy involves placement of a band of epoxy fully enclosing the diseased margin."),
                        p("3. Excison: Excision involves forcibly removing a diseased branch from the healthy ones.")
                       ),
-      
-
-                  tabPanel("Question 2"
-                             
-                           
-                           
-                           
-                           
-                           
-                           ),
 
                   tabPanel("Question 3", 
                            h2(
@@ -133,9 +119,10 @@ ui <- navbarPage(
       
                     tabPanel("Question 4",
                              h2("Does tissue loss directly relate to the treatment types?", align = "center"), 
-                             br(), br(),
+                             br(), 
                              tableOutput("Question4Table1"),
-                             br(), em("Analysis: ", style = "font-family: 'verdana'; font-si24pt"), 
+                             br(), 
+                             em("Analysis: ", style = "font-family: 'verdana'; font-si24pt"), 
                              p("In looking at the data, no one treatment type comes out on top. The data shows the mean tissue loss
                     progression across all the colonies that used a given treatment type. The most effective
                     treatment thus far has been the Epoxy Band treatment, with about 55% of the coral still 
@@ -144,37 +131,13 @@ ui <- navbarPage(
                     both treatment methods were not very effective in mitigating the disease, there is still signs 
                     of success. Both treatments beat the control group with no treatment by 10%, which shows there 
                     was some effectiveness in mitigating the white band disease. Other external factors may be contributing 
-                    the effectiveness of the different trreatments, such as the site location.", 
-                              style = "font-family: 'verdana'; font-si20pt") 
+                    the effectiveness of the different trreatments, such as the site location."), 
+                              style = "font-family: 'verdana'; font-si20pt"
+                             ) 
                            
-                           
-                           
-                           
-                           
-                           )
-)
-
-<<<<<<< HEAD
-server <- function(input, output) {
-=======
->>>>>>> QUESTION1
+      )
 
 server <- function(input, output) {
-  output$plot_q1_circular <- renderPlot({
-    p <- ggplot(data = summary_data)+
-      geom_bar(mapping = aes_string(x = as.factor("Site"), y = "Amount_Diseased"))+
-      ylim(-100,120) +
-      theme_minimal()+
-      theme(
-        axis.text = element_blank(),
-        axis.title = element_blank(),
-        panel.grid = element_blank(),
-        plot.margin = unit(rep(-2,4), "cm")     # This remove unnecessary margin around plot
-      ) +
-      coord_polar(start = 0)+
-      
-    ggplotly(p)
-  })
   output$plot_q1 <- renderPlotly({
     filtered_data <- summary_data %>%
       filter(Site == input$site)
@@ -232,7 +195,7 @@ server <- function(input, output) {
           filtered_table$Site[6], ". On average, ", filtered_table$Site[7],
           "% of the total population at the site was diseased.")
   })
-<<<<<<< HEAD
+
 
   output$plot_treatment <- renderPlot({
     if(input$treatment == "Control"){
@@ -265,10 +228,8 @@ server <- function(input, output) {
     
     
   }) 
-=======
+
   
-  
->>>>>>> QUESTION1
   
   output$Question4Table1 <- renderTable({
     data <- treatment_data
