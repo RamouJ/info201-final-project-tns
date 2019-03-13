@@ -41,7 +41,6 @@ ui <- navbarPage(
                             tags$li("Are there any disease patterns on each type of colonies? "),
                             tags$li("Does tissue loss directly relate to the treatment types? ")
                           )
-                           
                            ),
                   tabPanel("Question 1",
                            h1("Potential Cofounders of Diseases"),
@@ -51,7 +50,6 @@ ui <- navbarPage(
                                selectInput(inputId = "site", label = "Site of Observation", choices = summary_data$Site, selected = "Wild_Site_A")
                                ),
                              
-                          
                              mainPanel(
                                tabsetPanel(type = "tabs",
                                            tabPanel("Population Distribution Plot", plotlyOutput("plot_q1"),
@@ -75,7 +73,6 @@ ui <- navbarPage(
                                                       showing that herm could have an impact on the disease's ablility to deteriate the coral's tissue.")
                                                     ),
                                            
-
                                            tabPanel("Table", DT::dataTableOutput("table_q1"), 
                                                     br(),
                                                     p("There does not seem to be a correlation in the disease developing in the nursery site, 
@@ -84,8 +81,6 @@ ui <- navbarPage(
                                                       In looking at the combined dataset, the top three sites with the highest mean herm had the highest mean tissue loss, 
                                                       showing that herm could have an impact on the disease's ablility to deteriate the coral's tissue."))
                                           )
-                             
-                           
                         )
                   )
                 ),
@@ -155,15 +150,7 @@ ui <- navbarPage(
                     the effectiveness of the different trreatments, such as the site location."), 
                               style = "font-family: 'verdana'; font-si20pt"
                              ) 
-                           
-
-                           
-                           
                            )
-
-
-
-
 
 server <- function(input, output) {
   output$plot_q1 <- renderPlotly({
@@ -224,7 +211,6 @@ server <- function(input, output) {
           "% of the total population at the site was diseased.")
   })
 
-
   output$plot_treatment <- renderPlot({
     if(input$treatment == "Control"){
     control_plot <- ggplot(data = count_control) +
@@ -254,7 +240,6 @@ server <- function(input, output) {
     
     type_control
     
-    
   }) 
   
   output$Question4Table1 <- renderTable({
@@ -263,7 +248,6 @@ server <- function(input, output) {
     data
     
   })
-  
 }
 
 shinyApp(ui = ui, server = server)
