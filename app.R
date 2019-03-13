@@ -6,11 +6,11 @@ library("plotly")
 library("jpeg")
 library("DT")
 library("shinythemes")
+library("tidyverse")
 source("question1.R")
 source("analysis2.R")
 source("question3.R")
 source("Question4.R")
-library("tidyverse")
 
 ui <- navbarPage(
       "Caribbean Coral Reef Analysis: Mitigating White Band Disease",
@@ -41,7 +41,6 @@ ui <- navbarPage(
                             tags$li("Are there any disease patterns on each type of colonies? "),
                             tags$li("Does tissue loss directly relate to the treatment types? ")
                           )
-                           
                            ),
                   tabPanel("Question 1",
                            h1("Potential Cofounders of Diseases"),
@@ -51,7 +50,6 @@ ui <- navbarPage(
                                selectInput(inputId = "site", label = "Site of Observation", choices = summary_data$Site, selected = "Wild_Site_A")
                                ),
                              
-                          
                              mainPanel(
                                tabsetPanel(type = "tabs",
                                            tabPanel("Population Distribution Plot", plotlyOutput("plot_q1"),
@@ -74,11 +72,15 @@ ui <- navbarPage(
                                                       In looking at the combined dataset, the top three sites with the highest mean herm had the highest mean tissue loss, 
                                                       showing that herm could have an impact on the disease's ablility to deteriate the coral's tissue.")
                                                     ),
+<<<<<<< HEAD
                                            tabPanel("Interactive Map", leafletOutput("plot_percentage_q1"),
                                                     br(),
                                 
                                                     p("Here are the location of each observation site shown on the map")),
 
+=======
+                                           
+>>>>>>> 83d0e7a31a9afe48199d9f0282627cfe7e1943d0
                                            tabPanel("Table", DT::dataTableOutput("table_q1"), 
                                                     br(),
                                                     p("There does not seem to be a correlation in the disease developing in the nursery site, 
@@ -87,9 +89,15 @@ ui <- navbarPage(
                                                       In looking at the combined dataset, the top three sites with the highest mean herm had the highest mean tissue loss, 
                                                       showing that herm could have an impact on the disease's ablility to deteriate the coral's tissue."))
                                           )
+<<<<<<< HEAD
                                         )
                                       )
                                     ),
+=======
+                        )
+                  )
+                ),
+>>>>>>> 83d0e7a31a9afe48199d9f0282627cfe7e1943d0
       
                   tabPanel("Question 2",
                       h2(
@@ -156,15 +164,7 @@ ui <- navbarPage(
                     the effectiveness of the different trreatments, such as the site location."), 
                               style = "font-family: 'verdana'; font-si20pt"
                              ) 
-                           
-
-                           
-                           
                            )
-
-
-
-
 
 server <- function(input, output) {
   output$plot_q1 <- renderPlotly({
@@ -225,7 +225,6 @@ server <- function(input, output) {
           "% of the total population at the site was diseased.")
   })
 
-
   output$plot_treatment <- renderPlot({
     if(input$treatment == "Control"){
     control_plot <- ggplot(data = count_control) +
@@ -255,7 +254,6 @@ server <- function(input, output) {
     
     type_control
     
-    
   }) 
   
   output$Question4Table1 <- renderTable({
@@ -263,6 +261,7 @@ server <- function(input, output) {
     
     data
   })
+<<<<<<< HEAD
   output$map <- renderLeaflet({
   map_data <- read.csv("lonlat.csv")
   # Create a color palette with handmade bins.
@@ -285,6 +284,8 @@ server <- function(input, output) {
     ) %>%
     addLegend( pal=mypalette, values=~Depth, opacity=0.9, title = "Depth", position = "bottomright" )
   })
+=======
+>>>>>>> 83d0e7a31a9afe48199d9f0282627cfe7e1943d0
 }
 
 shinyApp(ui = ui, server = server)
