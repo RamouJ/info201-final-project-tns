@@ -6,11 +6,11 @@ library("plotly")
 library("jpeg")
 library("DT")
 library("shinythemes")
+library("tidyverse")
 source("question1.R")
 source("analysis2.R")
 source("question3.R")
 source("Question4.R")
-library("tidyverse")
 
 ui <- navbarPage(
       "Caribbean Coral Reef Analysis: Mitigating White Band Disease",
