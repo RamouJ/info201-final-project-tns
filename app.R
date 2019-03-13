@@ -7,6 +7,7 @@ library("jpeg")
 library("DT")
 library("shinythemes")
 library("tidyverse")
+library("leaflet")
 source("question1.R")
 source("analysis2.R")
 source("question3.R")
@@ -72,15 +73,12 @@ ui <- navbarPage(
                                                       In looking at the combined dataset, the top three sites with the highest mean herm had the highest mean tissue loss, 
                                                       showing that herm could have an impact on the disease's ablility to deteriate the coral's tissue.")
                                                     ),
-<<<<<<< HEAD
-                                           tabPanel("Interactive Map", leafletOutput("plot_percentage_q1"),
+
+                                           tabPanel("Interactive Map", leafletOutput("map"),
                                                     br(),
-                                
                                                     p("Here are the location of each observation site shown on the map")),
 
-=======
-                                           
->>>>>>> 83d0e7a31a9afe48199d9f0282627cfe7e1943d0
+
                                            tabPanel("Table", DT::dataTableOutput("table_q1"), 
                                                     br(),
                                                     p("There does not seem to be a correlation in the disease developing in the nursery site, 
@@ -89,15 +87,10 @@ ui <- navbarPage(
                                                       In looking at the combined dataset, the top three sites with the highest mean herm had the highest mean tissue loss, 
                                                       showing that herm could have an impact on the disease's ablility to deteriate the coral's tissue."))
                                           )
-<<<<<<< HEAD
+
                                         )
                                       )
                                     ),
-=======
-                        )
-                  )
-                ),
->>>>>>> 83d0e7a31a9afe48199d9f0282627cfe7e1943d0
       
                   tabPanel("Question 2",
                       h2(
@@ -261,7 +254,7 @@ server <- function(input, output) {
     
     data
   })
-<<<<<<< HEAD
+
   output$map <- renderLeaflet({
   map_data <- read.csv("lonlat.csv")
   # Create a color palette with handmade bins.
@@ -284,8 +277,7 @@ server <- function(input, output) {
     ) %>%
     addLegend( pal=mypalette, values=~Depth, opacity=0.9, title = "Depth", position = "bottomright" )
   })
-=======
->>>>>>> 83d0e7a31a9afe48199d9f0282627cfe7e1943d0
+
 }
 
 shinyApp(ui = ui, server = server)
