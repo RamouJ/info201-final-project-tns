@@ -61,9 +61,11 @@ ui <- navbarPage(
                        p("1. Control: Control group gets no special treatments."),
                        p("2. Epoxy: Epoxy involves placement of a band of epoxy fully enclosing the diseased margin."),
                        p("3. Excison: Excision involves forcibly removing a diseased branch from the healthy ones.")),
+      
                   tabPanel("Question 3", 
-                           titlePanel("Question: What are the disease patterns
-                                      in each colony?"
+                           h2(
+                             "What are the disease patterns in each colony?",
+                             align = "center"
                            ),
                            selectInput(
                              "feature",
