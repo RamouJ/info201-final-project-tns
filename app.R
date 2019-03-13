@@ -8,10 +8,11 @@ library("DT")
 library("shinythemes")
 library("tidyverse")
 library("leaflet")
-source("question1.R")
+
 source("analysis2.R")
 source("question3.R")
 source("Question4.R")
+source("question1.R")
 
 ui <- navbarPage(
       "Caribbean Coral Reef Analysis: Mitigating White Band Disease",
