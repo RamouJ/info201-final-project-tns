@@ -5,17 +5,20 @@ library("tidyr")
 library("plotly")
 library("jpeg")
 library("DT")
+library("shinythemes")
 source("question1.R")
 source("analysis2.R")
 source("question3.R")
 source("Question4.R")
 library("tidyverse")
+
 ui <- navbarPage(
       "Caribbean Coral Reef Analysis: Mitigating White Band Disease",
+      theme = shinytheme("flatly"),
                   tabPanel("Introduction", 
                           h2("Disease Dynamics and Potential
                           Mitigation Among Restored and Wild Caribbean Staghorn Coral", align = "center"),
-                          p("Our dataset is from NOAA (National Oceanic and Atmospheric Administration) and is 
+                          h4("Our dataset is from NOAA (National Oceanic and Atmospheric Administration) and is 
                             an experiment looking into the spread of white band disease on coral that is both wild and in a nursery setting. 
                             Caribbean staghorn coral has been given protected status. 
                             Nearly 97% of the coral was wiped out since the 1980s from white band disease, a disease 
@@ -31,7 +34,7 @@ ui <- navbarPage(
                             the 3 different treatments for the coral, being the control group, excision, and epoxy band (These terms are described in the data). The
                             data set keeps track of which coral colonies showed signs of tissue loss progression due to the disease, showing the effectiveness of the 
                             different treatments. "),
-                          p("The questions we will be highlighting in our app are: "),
+                          h3("The questions we will be highlighting in our app are: "),
                           tags$ol(
                             tags$li("Could there be any confounders that are causing coral reefs to deteriorate?  "), 
                             tags$li("What's the best possible treatment for the colony that has caught a disease? "), 
@@ -41,29 +44,40 @@ ui <- navbarPage(
                            
                            ),
                   tabPanel("Question 1",
-                           titlePanel("Potential Cofounders of Diseases"),
+                           h1("Potential Cofounders of Diseases"),
+                           em("selector below can be used to choose observation site around Florida Key area:",align = "left", style = "font-family: 'verdana'; font-si36pt"),
                            sidebarLayout(
                              sidebarPanel(
-                               
-                               selectInput(inputId = "site", label = "Site of Observation", choices = summary_data$Site, selected = "Wild_Site_A"),
-                               br()
-                             ),
+                               selectInput(inputId = "site", label = "Site of Observation", choices = summary_data$Site, selected = "Wild_Site_A")
+                               ),
+                             
                           
                              mainPanel(
                                tabsetPanel(type = "tabs",
-                                           tabPanel("Plot", plotlyOutput("plot_q1"),
+                                           tabPanel("Population Distribution Plot", plotlyOutput("plot_q1"),
+                                                    br(),
+                                                    h3("GLOSSARY", style = "font-si42pt"),
+                                                    h4("Herm: The count of croal scars created by worm bites. This infers polulation of worms present near coral reef site."),
+                                                    h4("Snails: The number of snail colonies present at the coral reef location."),
+                                                    h4("General Diseases: All other plant diseases that harm coral reef survival."),
                                                     p("There does not seem to be a correlation in the disease developing in the nursery site, 
                                                       given that no snails or herm were present and the disease developed. 
                                                       However, in cases involving a high mean herm the disease is generally prevalent and the mean number of snails goes down. 
                                                       In looking at the combined dataset, the top three sites with the highest mean herm had the highest mean tissue loss, 
                                                       showing that herm could have an impact on the disease's ablility to deteriate the coral's tissue.")),
-                                           tabPanel("PercentagePlot", plotlyOutput("plot_percentage_q1"),
-                                                    p("")
+                                           tabPanel("Coral Disease Percentage Plot", plotlyOutput("plot_percentage_q1"),
+                                                    br(),
+                                                    
+                                                    p("There does not seem to be a correlation in the disease developing in the nursery site, 
+                                                      given that no snails or herm were present and the disease developed. 
+                                                      However, in cases involving a high mean herm the disease is generally prevalent and the mean number of snails goes down. 
+                                                      In looking at the combined dataset, the top three sites with the highest mean herm had the highest mean tissue loss, 
+                                                      showing that herm could have an impact on the disease's ablility to deteriate the coral's tissue.")
                                                     ),
                                            
 
                                            tabPanel("Table", DT::dataTableOutput("table_q1"), 
-
+                                                    br(),
                                                     p("There does not seem to be a correlation in the disease developing in the nursery site, 
                                                       given that no snails or herm were present and the disease developed. 
                                                       However, in cases involving a high mean herm the disease is generally prevalent and the mean number of snails goes down. 
@@ -73,7 +87,8 @@ ui <- navbarPage(
                              
                            
                         )
-                  )),
+                  )
+                ),
       
                   tabPanel("Question 2",
                       h2(
