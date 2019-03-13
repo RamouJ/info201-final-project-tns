@@ -29,7 +29,10 @@ my_ui <- navbarPage(
                            
                            ),
                   tabPanel("Question 2",
-                       titlePanel("Best possible treatment"),
+                      h2(
+                        "What's the best possible treatment for the colony that has caught a disease?",
+                       align = "center"
+                      ),
                        selectInput(
                          "treatment",
                          label = "Type of treatment",
@@ -41,8 +44,10 @@ my_ui <- navbarPage(
                        p("These bar graphs represent the number of coral colonies' tissue loss or gain depending on the type of
                          treatment using binary, with 0 representing no tissue loss and 1 representing above 0 % tissue
                          loss in the colony. Overall, epoxy group had the lowest no loss to loss ratio of 19:23, giving 
-                         a validation that epoxy band might be the best treatment for the dying coral colony.")
-                    ),
+                         a validation that epoxy band might be the best treatment for the dying coral colony."),
+                       p("1. Control: Control group gets no special treatments."),
+                       p("2. Epoxy: Epoxy involves placement of a band of epoxy fully enclosing the diseased margin."),
+                       p("3. Excison: Excision involves forcibly removing a diseased branch from the healthy ones.")),
                   tabPanel("Question 3", 
                            titlePanel("Question: What are the disease patterns
                                       in each colony?"
@@ -60,7 +65,8 @@ my_ui <- navbarPage(
                               disease. The Herm value, is the number of 
                               colonies tallied with recent predation scars by
                               fireworms. The Snails value, is the number of
-                              colonies tallied with corallivorous snails."
+                              colonies tallied with corallivorous snails.",
+                             style = "font-family: 'verdana'; font-si24pt"
                            ),
                            br(),
                            textOutput("plot_info"),
