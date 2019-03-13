@@ -22,14 +22,8 @@ summary_me_site <- mitigation_experiments %>%
 
 Treatment <- c("Epoxy Band", "Control", "Excision")
 
-as.data.frame(Treatment)
+Treatment <- as.data.frame(Treatment)
 
 treatment_data <- cbind(Treatment, summary_me_treatment)
 
-treatment_data <- colnames("Treatment", "Treatment Description", "Mean TLP")
-
-View(treatment_data)
-
-View(summary_me_site)
-
-View(mitigation_experiments)
+colnames(treatment_data) <- c("Treatment", "Treatment Description", "Mean TLP")

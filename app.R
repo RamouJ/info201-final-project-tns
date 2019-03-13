@@ -42,7 +42,8 @@ ui <- navbarPage(
                             tags$li("What's the best possible treatment for the colony that has caught a disease? "), 
                             tags$li("Are there any disease patterns on each type of colonies? "),
                             tags$li("Does tissue loss directly relate to the treatment types? ")
-                          )
+                          ),
+                          p("Source: ", tags$a(href="https://www.fisheries.noaa.gov/species/staghorn-coral", "NOAA Data"))
                            ),
                   tabPanel("Question 1",
                            h1("Potential Cofounders of Diseases"),
@@ -184,7 +185,7 @@ server <- function(input, output) {
   )
   
   output$plot <- renderPlot({
-    filtered_table <- filtered_df <- summary_data %>%
+    filtered_table <- filtered_df <- summary_data_q3 %>%
       filter(Site == input$feature) %>%
       gather(key = Diseases, value = Site)
     
@@ -205,7 +206,7 @@ server <- function(input, output) {
   })
   
   output$plot_info <- renderText({
-    filtered_table <- summary_data %>%
+    filtered_table <- summary_data_q3 %>%
       filter(Site == input$feature) %>%
       gather(key = Diseases, value = Site)
     
@@ -262,7 +263,7 @@ server <- function(input, output) {
   mybins=seq(4, 6.5, by=0.5)
   mypalette = colorBin(palette="YlOrBr", domain=map_data$Location, na.color="transparent", bins=mybins)
   
-  # Prepar the text for the tooltip:
+  # Prepare the text for the tooltip:
   mytext=paste("Type: ", map_data$Type, "<br/>", "Depth: ", map_data$Depth, "<br/>", "Name: ", map_data$Location, sep="") %>%
     lapply(htmltools::HTML)
   

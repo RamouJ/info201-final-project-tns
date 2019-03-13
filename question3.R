@@ -2,10 +2,10 @@ library("ggplot2")
 library("dplyr")
 library("tidyr")
 
-summary_data <- read.csv('Data/Colony_Condition/Summary_Data.csv',
+summary_data_q3 <- read.csv('Data/Colony_Condition/Summary_Data.csv',
                              stringsAsFactors = FALSE)
 
-select_values <- summary_data$Site
+select_values <- summary_data_q3$Site
 
 
 
