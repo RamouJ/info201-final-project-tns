@@ -22,21 +22,20 @@ ui <- navbarPage(
                              sidebarPanel(
                                
                                selectInput(inputId = "site", label = "Site of Observation", choices = summary_data$Site, selected = "Wild_Site_A"),
-                               br(),
-                               radioButtonsinputId = "diseases", label = "Disease Compilation",
-                               choices = list("General_Disease" = 1, "Worm Bites" = 2, "Snail Colonies" = 3), 
-                               selected = 1),
-                             
+                               br()
+                             ),
+                          
                              mainPanel(
                                tabsetPanel(type = "tabs",
                                            tabPanel("Plot", plotlyOutput("plot_q1"),
                                                     p(" ")),
-                                           
                                            tabPanel("Table", DT::dataTableOutput("table_q1"), 
                                                     p(" "))
-                               )
+                                          )
                              )
-                           )
+                           
+                        )
+                  ),
         
                            
                            
@@ -44,7 +43,6 @@ ui <- navbarPage(
                            
                            
                            
-                           ),
                   tabPanel("Question 2"
                              
                            
@@ -87,21 +85,20 @@ ui <- navbarPage(
                            )
 )
 
+
 server <- function(input, output) {
 
   output$plot_q1 <- renderPlotly({
     filtered_data <- summary_data %>%
-      filter(Diseases == input$diseases)%>%
       filter(Site == input$site)
     
     p <- ggplot(data = filtered_data)+
-      geom_col(mapping = aes_string(x = "diseases", y = "Amount_Diseased", fill = "Site"))
+      geom_col(mapping = aes_string(x = "Diseases", y = "Amount_Diseased", fill = "Site"))
     ggplotly(p)
   })
   
   output$table_q1 <- DT::renderDataTable(
-    filtered_coral <- year_forest_perc %>%
-      filter(Diseases == input$diseases)%>%
+    filtered_data <- summary_data %>%
       filter(Site == input$site),
     options = list(lengthChange = FALSE)
   )
